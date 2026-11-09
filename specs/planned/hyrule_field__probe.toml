@@ -1,0 +1,16 @@
+[spec]
+mode = "moment"
+id = "planned_hyrule_field_probe"
+description = "The moment the player character steps out of Kokiri Forest onto Hyrule Field for the first time in the game, marked by the area name card."
+game = "The Legend of Zelda: Ocarina of Time (1998)"
+screen_text = "hyrule\\s*fiel"
+anchor_style = "standalone"
+occurrence = "first"
+screen_exclude = ["main\\s*menu", "new\\s*game", "continue", "options", "credits", "loading", "save", "load", "inventory", "map\\s*screen", "quest\\s*log", "system\\s*menu", "nintendo direct", "trailer", "game over", "princess of hyrule castle", "hyrule castle town", "karin"]
+transcript_strong = ["oh my god", "holy (cr|shit|hell|sh*t)", "wow", "no way", "is that really", "i can't believe", "the graphics are", "so detailed", "beautiful", "stunning"]
+transcript_weak = ["hyrule field", "first time", "looking at this", "taking it in", "breathing room", "wide open", "explore"]
+transcript_precursor = ["leaving the forest", "coming out", "about to see", "here we go", "step into", "entering"]
+comment_keywords = ["first time seeing hyrule field", "wow the graphics", "holy crap", "this is beautiful", "first steps", "ooof"]
+clip_lead_s = 5
+clip_tail_s = 10
+look = "A wide, vibrant landscape of rolling green hills, distant mountains, and a clear blue sky, seen from a low angle as a character walks out of a dark forest edge into the light."

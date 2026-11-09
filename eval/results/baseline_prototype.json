@@ -1,0 +1,97 @@
+[
+ {
+  "present": 20,
+  "absent": 0,
+  "unknown": 42,
+  "predictions": 39,
+  "pred_on_unknown": 19,
+  "hits": 5,
+  "precision": 0.25,
+  "recall": 0.25,
+  "err_median_s": 16.1,
+  "err_p90_s": 46.6,
+  "wrong": [
+   [
+    "N-H_1qsQApI",
+    37.9
+   ],
+   [
+    "1UEfEqhrRik",
+    -9.2
+   ],
+   [
+    "yb2zBfiJSpA",
+    -15.0
+   ],
+   [
+    "veMiTsEIRfI",
+    -15.0
+   ],
+   [
+    "AWOqDlNSGFg",
+    20.5
+   ],
+   [
+    "16P7HS9Gv8o",
+    27.7
+   ],
+   [
+    "yeUD0dtNYG8",
+    -11.4
+   ],
+   [
+    "yCgjSQ04kh4",
+    46.0
+   ],
+   [
+    "-_dlFN0Y5kw",
+    20.6
+   ],
+   [
+    "PqrTzNM9InI",
+    46.6
+   ],
+   [
+    "lWX62gwly5g",
+    28.8
+   ],
+   [
+    "AqWWkm-ltFg",
+    14.7
+   ],
+   [
+    "2BKzH0BrwJE",
+    -17.2
+   ],
+   [
+    "kUtCJImptB0",
+    1007.0
+   ],
+   [
+    "bVD9mjhWLt4",
+    46.6
+   ]
+  ],
+  "missed": [],
+  "config": "prototype: transcript+comments guess"
+ },
+ {
+  "present": 20,
+  "absent": 0,
+  "unknown": 42,
+  "predictions": 20,
+  "pred_on_unknown": 0,
+  "hits": 20,
+  "precision": 1.0,
+  "recall": 1.0,
+  "err_median_s": 0.0,
+  "err_p90_s": 0.0,
+  "wrong": [],
+  "missed": [],
+  "config": "prototype: + slice OCR snap",
+  "slices": 45,
+  "slice_mb": 70,
+  "wall_s": 1500,
+  "http_429": 7
+ }
+]

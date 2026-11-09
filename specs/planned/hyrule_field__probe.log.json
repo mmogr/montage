@@ -1,0 +1,214 @@
+[
+ [
+  "draft",
+  {
+   "mode": "moment",
+   "id": "oot_remake_first_hyrule_field",
+   "description": "The moment the player character steps out of the forest onto Hyrule Field for the first time in the game.",
+   "game": "The Legend of Zelda: Ocarina of Time remake",
+   "screen_text": "hyrule\\s*fiel(d|d|ds)?|hyrule\\s*field",
+   "anchor_style": "standalone",
+   "occurrence": "first",
+   "screen_exclude": [
+    "main\\s*menu",
+    "new\\s*game",
+    "continue",
+    "options",
+    "credits",
+    "loading",
+    "save",
+    "load",
+    "inventory",
+    "map\\s*screen",
+    "quest\\s*log",
+    "system\\s*menu"
+   ],
+   "transcript_strong": [
+    "oh my god",
+    "holy (cr|shit|hell|sh*t)",
+    "wow",
+    "no way",
+    "is that really",
+    "i can't believe",
+    "the graphics are",
+    "so detailed",
+    "beautiful",
+    "stunning"
+   ],
+   "transcript_weak": [
+    "hyrule field",
+    "first time",
+    "looking at this",
+    "taking it in",
+    "breathing room",
+    "wide open",
+    "explore"
+   ],
+   "transcript_precursor": [
+    "leaving the forest",
+    "coming out",
+    "about to see",
+    "here we go",
+    "step into",
+    "entering"
+   ],
+   "comment_keywords": [
+    "first time seeing hyrule field",
+    "wow the graphics",
+    "holy crap",
+    "this is beautiful",
+    "first steps",
+    "ooof"
+   ],
+   "clip_lead_s": 5,
+   "clip_tail_s": 10,
+   "look": "A wide, vibrant landscape of rolling green hills, distant mountains, and a clear blue sky, seen from a low angle as a character walks out of a dark forest edge into the light."
+  },
+  null
+ ],
+ [
+  "revise1",
+  {
+   "mode": "moment",
+   "id": "oot_remake_first_hyrule_field",
+   "description": "The moment the player character steps out of Kokiri Forest onto Hyrule Field for the first time in the game.",
+   "game": "The Legend of Zelda: Ocarina of Time",
+   "screen_text": "hyrule\\s*fiel(d|d|ds)?",
+   "anchor_style": "standalone",
+   "occurrence": "first",
+   "screen_exclude": [
+    "main\\s*menu",
+    "new\\s*game",
+    "continue",
+    "options",
+    "credits",
+    "loading",
+    "save",
+    "load",
+    "inventory",
+    "map\\s*screen",
+    "quest\\s*log",
+    "system\\s*menu",
+    "nintendo direct",
+    "trailer",
+    "game over",
+    "princess of hyrule castle",
+    "hyrule castle town"
+   ],
+   "transcript_strong": [
+    "oh my god",
+    "holy (cr|shit|hell|sh*t)",
+    "wow",
+    "no way",
+    "is that really",
+    "i can't believe",
+    "the graphics are",
+    "so detailed",
+    "beautiful",
+    "stunning"
+   ],
+   "transcript_weak": [
+    "hyrule field",
+    "first time",
+    "looking at this",
+    "taking it in",
+    "breathing room",
+    "wide open",
+    "explore"
+   ],
+   "transcript_precursor": [
+    "leaving the forest",
+    "coming out",
+    "about to see",
+    "here we go",
+    "step into",
+    "entering"
+   ],
+   "comment_keywords": [
+    "first time seeing hyrule field",
+    "wow the graphics",
+    "holy crap",
+    "this is beautiful",
+    "first steps",
+    "ooof"
+   ],
+   "clip_lead_s": 5,
+   "clip_tail_s": 10,
+   "look": "A wide, vibrant landscape of rolling green hills, distant mountains, and a clear blue sky, seen from a low angle as a character walks out of a dark forest edge into the light."
+  },
+  "screen_text 'hyrule\\\\s*fiel(d|d|ds)?|hyrule\\\\s*field': 37 matching OCR lines in 23/62 videos.\ngame 'The Legend of Zelda: Ocarina of Time remake' gives title pattern 'Ocarina\\\\s*of\\\\s*Time\\\\s*remake' (frames showing it are excluded as title screens/overlays); it matches on-screen text in 0/62 videos. If that is 0, the game name is probably wrong; check the explored lines below.\nMost common matched lines: \"HYRULE FIELD\" x22; \"HYRULE FIELD.\" x3; \"HYRULE FIELD D\" x3; \"HYRULE FIELD\u00ae\" x2; \"HYRULE FIELD..\" x1; \"HYRULE FIELD B.\" x1; \"HYRULE FIELD B\" x1; \"HYRULE FIELD D.\" x1; \"HYRULE FIELD .\" x1; \"HYRULE FIELD A\" x1\nPosition in video (fraction of duration): median 0.51; 0 of 37 matches are in the first 3% of a video.\nVisible duration per occurrence: median 0s, max 0s (long = persistent HUD/menu). Occurrences per video: median 1 frames.\n37/37 matches are short standalone lines (<=30 chars); the rest are inside longer text.\nText that appears in the SAME frame as matches (often part of the same card, e.g. a subtitle under a name; putting it in screen_exclude would remove those matches): \"NINTENDO DIRECT TIME!\" x2; \"DOOOXDIX\" x1; \"amcure\" x1; \"\u017do og-\" x1; \"nsovce\" x1; \"Patress: CRICEE 1 \u2022 ARY IN \u2022 JUALU\" x1; \"Spirituel Soone of Fie\" x1; \"1:43:07 3\" x1; \"12:48:25.07\" x1; \"71:23:56\" x1; \"78:23:50\" x1; \"MAS:01.1\" x1\nAFTER screen_exclude: 37 matches survive in 23/62 videos; exclusions removed 0 matches in 0 videos. Removing real event frames loses videos; only exclude text that marks NON-event frames.\nEXPLORE - short on-screen lines containing query words, with how many videos show them: \"OCARINA OF TIME\" in 47 videos; \"KOKIRI FOREST\" in 28 videos; \"PRINCESS OF HYRULE CASTLE\" in 27 videos; \"HYRULE FIELD\" in 17 videos; \"OCARINA\" in 16 videos; \"HYRULE CASTLE\" in 15 videos; \"OCARINA OFTIME\" in 13 videos; \"GAME OVER\" in 8 videos; \"GAME\" in 6 videos; \"OCARINA OFT ME\" in 6 videos; \"HYRULE CASTLE TOWN\" in 5 videos; \"OCARINA OI\" in 5 videos; \"OCARINA OFIME\" in 5 videos; \"OCARINA OF TIM\" in 4 videos; \"HYRULE\" in 3 videos; \"KOKIRI FOREST B.\" in 3 videos; \"HYRULE FIELD D\" in 3 videos; \"FAIRY OCARINA\" in 3 videos; \"OCARINA OF TIMI\" in 3 videos; \"THIS IS THE SPIRKUAL STONE OF THE FOREST\" in 3 videos"
+ ],
+ [
+  "revise2",
+  {
+   "mode": "moment",
+   "id": "planned_hyrule_field_probe",
+   "description": "The moment the player character steps out of Kokiri Forest onto Hyrule Field for the first time in the game, marked by the area name card.",
+   "game": "The Legend of Zelda: Ocarina of Time (1998)",
+   "screen_text": "hyrule\\s*fiel",
+   "anchor_style": "standalone",
+   "occurrence": "first",
+   "screen_exclude": [
+    "main\\s*menu",
+    "new\\s*game",
+    "continue",
+    "options",
+    "credits",
+    "loading",
+    "save",
+    "load",
+    "inventory",
+    "map\\s*screen",
+    "quest\\s*log",
+    "system\\s*menu",
+    "nintendo direct",
+    "trailer",
+    "game over",
+    "princess of hyrule castle",
+    "hyrule castle town",
+    "karin"
+   ],
+   "transcript_strong": [
+    "oh my god",
+    "holy (cr|shit|hell|sh*t)",
+    "wow",
+    "no way",
+    "is that really",
+    "i can't believe",
+    "the graphics are",
+    "so detailed",
+    "beautiful",
+    "stunning"
+   ],
+   "transcript_weak": [
+    "hyrule field",
+    "first time",
+    "looking at this",
+    "taking it in",
+    "breathing room",
+    "wide open",
+    "explore"
+   ],
+   "transcript_precursor": [
+    "leaving the forest",
+    "coming out",
+    "about to see",
+    "here we go",
+    "step into",
+    "entering"
+   ],
+   "comment_keywords": [
+    "first time seeing hyrule field",
+    "wow the graphics",
+    "holy crap",
+    "this is beautiful",
+    "first steps",
+    "ooof"
+   ],
+   "clip_lead_s": 5,
+   "clip_tail_s": 10,
+   "look": "A wide, vibrant landscape of rolling green hills, distant mountains, and a clear blue sky, seen from a low angle as a character walks out of a dark forest edge into the light."
+  },
+  "screen_text 'hyrule\\\\s*fiel(d|d|ds)?': 37 matching OCR lines in 23/62 videos.\ngame 'The Legend of Zelda: Ocarina of Time' gives title pattern 'Ocarina\\\\s*of\\\\s*Time' (frames showing it are excluded as title screens/overlays); it matches on-screen text in 48/62 videos.\nMost common matched lines: \"HYRULE FIELD\" x22; \"HYRULE FIELD.\" x3; \"HYRULE FIELD D\" x3; \"HYRULE FIELD\u00ae\" x2; \"HYRULE FIELD..\" x1; \"HYRULE FIELD B.\" x1; \"HYRULE FIELD B\" x1; \"HYRULE FIELD D.\" x1; \"HYRULE FIELD .\" x1; \"HYRULE FIELD A\" x1\nPosition in video (fraction of duration): median 0.51; 0 of 37 matches are in the first 3% of a video.\nVisible duration per occurrence: median 0s, max 0s (long = persistent HUD/menu). Occurrences per video: median 1 frames.\n37/37 matches are short standalone lines (<=30 chars); the rest are inside longer text.\nText that appears in the SAME frame as matches (often part of the same card, e.g. a subtitle under a name; putting it in screen_exclude would remove those matches): \"NINTENDO DIRECT TIME!\" x2; \"DOOOXDIX\" x1; \"amcure\" x1; \"\u017do og-\" x1; \"nsovce\" x1; \"Patress: CRICEE 1 \u2022 ARY IN \u2022 JUALU\" x1; \"Spirituel Soone of Fie\" x1; \"1:43:07 3\" x1; \"12:48:25.07\" x1; \"71:23:56\" x1; \"78:23:50\" x1; \"MAS:01.1\" x1\nAFTER screen_exclude: 35 matches survive in 22/62 videos; exclusions removed 2 matches in 1 videos: 'nintendo direct' removed 2 (e.g. \"NINTENDO DIRECT TIME!\"). Removing real event frames loses videos; only exclude text that marks NON-event frames.\nEXPLORE - short on-screen lines containing query words, with how many videos show them: \"OCARINA OF TIME\" in 47 videos; \"KOKIRI FOREST\" in 28 videos; \"PRINCESS OF HYRULE CASTLE\" in 27 videos; \"HYRULE FIELD\" in 17 videos; \"OCARINA\" in 16 videos; \"HYRULE CASTLE\" in 15 videos; \"OCARINA OFTIME\" in 13 videos; \"KOKIRI TUNIC\" in 12 videos; \"GAME OVER\" in 8 videos; \"KOKIRI SWORD\" in 7 videos; \"GAME\" in 6 videos; \"OCARINA OFT ME\" in 6 videos; \"HYRULE CASTLE TOWN\" in 5 videos; \"OCARINA OI\" in 5 videos; \"OCARINA OFIME\" in 5 videos; \"OCARINA OF TIM\" in 4 videos; \"HYRULE\" in 3 videos; \"KOKIRI FOREST B.\" in 3 videos; \"HYRULE FIELD D\" in 3 videos; \"FAIRY OCARINA\" in 3 videos"
+ ]
+]

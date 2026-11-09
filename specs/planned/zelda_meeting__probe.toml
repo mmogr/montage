@@ -1,0 +1,16 @@
+[spec]
+mode = "moment"
+id = "planned_zelda_meeting_probe"
+description = "The moment Link first encounters or is greeted by Princess Zelda in the Ocarina of Time remake."
+game = "The Legend of Zelda: Ocarina of Time"
+screen_text = "(princess\\s+)?zelda\\s*$"
+anchor_style = "any"
+occurrence = "first"
+screen_exclude = ["zelda\\s+notes?", "zelda'?s\\s+(letter|lullaby)", "legend\\s+of\\s+zelda", "ocarina\\s+of\\s*time", "ocarina\\s+of\\s*time", "starting\\s+soon", "main\\s+menu", "title\\s+screen", "pause", "options", "save\\s+data", "load\\s+game", "credits", "guess\\s+music", "game\\s+&\\s+title", "amiibo", "compensation\\s+log", "royal\\s+family"]
+transcript_strong = ["princess\\s+zelda", "queen\\s+zelda", "this\\s+is\\s+zelda", "meet\\s+zelda", "zelda\\s+right\\s+there", "look\\s+at\\s+zelda", "it'?s\\s+zelda"]
+transcript_weak = ["zelda", "who\\s+is\\s+that", "is\\s+that\\s+zelda", "hyrule\\s+castle"]
+transcript_precursor = ["castle", "hallway", "throne", "corridor", "king's\\s+chamber"]
+comment_keywords = ["zelda", "princess", "queen", "first\\s+meet", "reunion"]
+clip_lead_s = 5
+clip_tail_s = 10
+look = "A woman in a green or purple dress and golden headdress standing in a grand stone castle hallway or throne room, illuminated by warm torchlight, facing the player character."

@@ -1,0 +1,143 @@
+[
+ [
+  "draft",
+  {
+   "mode": "statements",
+   "id": "republican_midterm_reaction",
+   "description": "Republican politicians or party officials commenting on, analyzing, or reacting to the results of the midterm elections.",
+   "who": "Elected Republican officials (Presidents, Senators, Representatives, Governors, Mayors), Republican Party leadership (RNC chair, committee chairs), prominent Republican activists, or commentators explicitly identified as Republican strategists/analysts. Does not include Democrats, independents, or neutral news anchors unless quoting a Republican.",
+   "what": "The outcome of the midterm elections, specifically seat counts, control of Congress, specific wins/losses, or the overall performance of the party. Reactions can be positive (celebrating wins) or negative (explaining losses).",
+   "after": "2026-11-03",
+   "exclude_sources": [
+    "Live election night coverage where the results are still being tabulated and no final outcome has been declared for the specific district/nation.",
+    "Campaign ads or candidate speeches from before the election.",
+    "General political commentary not directly tied to the specific results of the 2026 midterm.",
+    "Videos that are primarily about the 2024 or 2028 elections unless explicitly comparing them to the 2026 results."
+   ],
+   "topic_keywords": [
+    "midterm",
+    "election result",
+    "voting",
+    "turnout",
+    "seat count",
+    "congress",
+    "senate",
+    "house",
+    "majority",
+    "loss",
+    "win",
+    "defeat",
+    "victory",
+    "polling",
+    "count",
+    "ballot",
+    "district"
+   ],
+   "interpretation": "This spec targets statements made by Republicans *after* the results of the 2026 midterms were known. It assumes 'midterm results' refers to the November 2026 election cycle given the current date. It excludes live coverage of the election night before results are finalized, focusing instead on post-election analysis, celebration, or post-mortems.",
+   "game": ""
+  },
+  null
+ ],
+ [
+  "revise1",
+  {
+   "mode": "statements",
+   "id": "republican_midterm_reaction",
+   "description": "Republican politicians or party officials commenting on, analyzing, or reacting to the results of the 2026 midterm elections.",
+   "who": "Elected Republican officials (Presidents, Senators, Representatives, Governors, Mayors), Republican Party leadership (RNC chair, committee chairs), prominent Republican activists, or commentators explicitly identified as Republican strategists/analysts. Does not include Democrats, independents, or neutral news anchors unless quoting a Republican.",
+   "what": "The outcome of the 2026 midterm elections, specifically seat counts, control of Congress, specific wins/losses, or the overall performance of the party. Reactions can be positive (celebrating wins) or negative (explaining losses).",
+   "after": "2026-11-02",
+   "exclude_sources": [
+    "Live election night coverage where the results are still being tabulated and no final outcome has been declared.",
+    "Campaign ads or candidate speeches from before the election (prior to Nov 2026).",
+    "General political commentary not directly tied to the specific results of the 2026 midterm.",
+    "Videos that are primarily about the 2024 or 2028 elections unless explicitly comparing them to the 2026 results.",
+    "Concession speeches by losing Republican candidates (e.g., 'I am disappointed', 'conceding defeat') unless followed by broader analysis of the party's performance."
+   ],
+   "topic_keywords": [
+    "midterm",
+    "election result",
+    "voting",
+    "turnout",
+    "seat count",
+    "congress",
+    "senate",
+    "house",
+    "majority",
+    "loss",
+    "win",
+    "defeat",
+    "victory",
+    "polling",
+    "count",
+    "ballot",
+    "district",
+    "republican",
+    "gop",
+    "mike johnson",
+    "jd vance",
+    "trump",
+    "thune",
+    "stefanik",
+    "desantis",
+    "nixon",
+    "nixon",
+    "nixon"
+   ],
+   "interpretation": "This spec targets statements made by Republicans *after* the results of the 2026 midterms were known. It assumes 'midterm results' refers to the November 2026 election cycle given the current date (Nov 9, 2026). It includes both celebratory reactions to wins and analytical/post-mortem reactions to losses. The 'after' date is set to 2026-11-02 to ensure we only capture post-election commentary, not pre-election polling or predictions. The 'who' field is broad to capture elected officials and party leadership as indicated by chyrons in the index.",
+   "game": ""
+  },
+  "31 candidate videos; 17 have captions; 8 were uploaded before 'after'='2026-11-03'.\ntopic_keywords ['midterm', 'election result', 'voting', 'turnout', 'seat count', 'congress', 'senate', 'house', 'majority', 'loss', 'win', 'defeat', 'victory', 'polling', 'count', 'ballot', 'district']: match captions in 17/17 captioned videos.\nChyron-like on-screen lines seen: \"HOUSE SPEAKER MIKE JOHNSON (R-LA) DELIVERS REMARKS\" x9; \"HOUSE SPEAKER MIKE JOHNSON (R\u2022LA) DELIVERS REMARKS\" x5; \"U.S. SENATE CANDIDATE REP. RALPH NORMAN (R)\" x4; \"J.S. SENATE CANDIDATE REP. RALPH NORMAN (R)\" x4; \"U.S. SENATE CANDIDATE REP. RAIPH NORMAN (R)\" x2; \"SEN. CHUCK SHUMER\" x1; \"REP.ELISE STEFANIK | (R) NEWYOR\" x1; \"SOCIAL MEDIA POST BY VICE PRESIDENT JD VANCE\" x1; \"(D) Former SC State Representative\" x1; \"PRESIDENT\" x1; \"HOUSF SPFAKER MIKE JOHNSON (R-LA) DFLIVERS REMARKS\" x1; \"HOUSE SPFAKFR MIKF JOHNSON (R-LA) DFLIVFRS RFMARKS\" x1; \"NDIDATE REP. RALPH NORMAN (R)\" x1; \"CANDIDATE REP. RALPH NORMAN (R)\" x1; \".S. SENATE CANDIDATE REP. RALPH NORMAN (R)\" x1\nTitles: Trump reacts to JD Vance blaming election losses on the Iran war | Susan Collins Concedes in Maine Senate race | \u201cI\u2019M DISAPPOINTED!\u201d Mike Johnson Reacts as Republicans Suffer Major Mi | Sen. Thune (R-SD) on President Trump Calling for Elections to be Natio | Senator John Thune On Midterm Elections | Countries react to U.S. midterm election results | Steve Hilton tells Becerra: 'Enjoy it while it lasts' | Republicans react after sweeping defeat by Democrats during midterm el | Trump answers questions from reporters after Republican midterm losses | Senator Thune Discusses Early Results | Thune on improving candidate quality in the Republican party | Crockett, Manchin, Stefanik react to early 2026 midterm results | 'The reason we lost is the war': JD Vance | JD Vance distancing himself from Trump after Republican midterm losses | Senate Majority Leader John Thune joined Hugh to talk about the result | DeSantis warns of 'EXTINCTION-LEVEL event' for GOP | LIVE | 2026 Midterm Election Results: Texas Senate, Governor | REACTIO | Rep. Mike Collins delivers concession speech after losing Georgia's U. | Secretary of State candidate Max Engling speaks at Republican Watch Pa | 'The polls are wrong.' Mike Johnson tells Trump rally 2026 midterms wi | SEN. JOHN THUNE | BREAKING NEWS: Speaker Johnson Speaks After Republicans Lose House Maj | LIVE: Gov. DeSantis speaks after 2026 midterm elections | Republican Zach Lahn delivers concession speech after losing to Democr | Vivek Ramaswamy Concedes Ohio Governor Race to Amy Acton in Emotional "
+ ],
+ [
+  "revise2",
+  {
+   "mode": "statements",
+   "id": "planned_gop_midterm_reactions_probe",
+   "description": "Republican politicians or party officials commenting on, analyzing, or reacting to the results of the 2026 midterm elections.",
+   "who": "Elected Republican officials (Presidents, Senators, Representatives, Governors, Mayors), Republican Party leadership (RNC chair, committee chairs), prominent Republican activists, or commentators explicitly identified as Republican strategists/analysts. Does not include Democrats, independents, or neutral news anchors unless quoting a Republican.",
+   "what": "The outcome of the 2026 midterm elections, specifically seat counts, control of Congress, specific wins/losses, or the overall performance of the party. Reactions can be positive (celebrating wins) or negative (explaining losses).",
+   "after": "2026-11-02",
+   "exclude_sources": [
+    "Live election night coverage where the results are still being tabulated and no final outcome has been declared.",
+    "Campaign ads or candidate speeches from before the election (prior to Nov 2026).",
+    "General political commentary not directly tied to the specific results of the 2026 midterm.",
+    "Videos that are primarily about the 2024 or 2028 elections unless explicitly comparing them to the 2026 results.",
+    "Concession speeches by losing Republican candidates (e.g., 'I am disappointed', 'conceding defeat') unless followed by broader analysis of the party's performance.",
+    "Videos featuring Democratic politicians (e.g., Chuck Schumer, Elise Stefanik in a D context, Amy Acton) unless they are quoting a Republican."
+   ],
+   "topic_keywords": [
+    "midterm",
+    "election result",
+    "voting",
+    "turnout",
+    "seat count",
+    "congress",
+    "senate",
+    "house",
+    "majority",
+    "loss",
+    "win",
+    "defeat",
+    "victory",
+    "polling",
+    "count",
+    "ballot",
+    "district",
+    "republican",
+    "gop",
+    "mike johnson",
+    "jd vance",
+    "trump",
+    "thune",
+    "desantis",
+    "ralph norman",
+    "vivek ramaswamy",
+    "zach lahn"
+   ],
+   "interpretation": "This spec targets statements made by Republicans *after* the results of the 2026 midterms were known. It assumes 'midterm results' refers to the November 2026 election cycle given the current date (Nov 9, 2026). It includes both celebratory reactions to wins and analytical/post-mortem reactions to losses. The 'after' date is set to 2026-11-02 to ensure we only capture post-election commentary. The 'who' field is broad to capture elected officials and party leadership. I removed specific names from topic_keywords that might be too narrow or incorrect (like 'nixon' which was a hallucination in the draft, and 'stefanik' who is R-NY but appears in contexts with Democrats, though kept 'ralph norman' as a key 2026 candidate seen in chyrons). I added names frequently seen in the chyrons of the candidate videos (Norman, Ramaswamy, Lahn) to help window the correct segments.",
+   "game": ""
+  },
+  "31 candidate videos; 17 have captions; 7 were uploaded before 'after'='2026-11-02'.\ntopic_keywords ['midterm', 'election result', 'voting', 'turnout', 'seat count', 'congress', 'senate', 'house', 'majority', 'loss', 'win', 'defeat', 'victory', 'polling', 'count', 'ballot', 'district', 'republican', 'gop', 'mike johnson', 'jd vance', 'trump', 'thune', 'stefanik', 'desantis', 'nixon', 'nixon', 'nixon']: match captions in 17/17 captioned videos.\nChyron-like on-screen lines seen: \"HOUSE SPEAKER MIKE JOHNSON (R-LA) DELIVERS REMARKS\" x9; \"HOUSE SPEAKER MIKE JOHNSON (R\u2022LA) DELIVERS REMARKS\" x5; \"U.S. SENATE CANDIDATE REP. RALPH NORMAN (R)\" x4; \"J.S. SENATE CANDIDATE REP. RALPH NORMAN (R)\" x4; \"U.S. SENATE CANDIDATE REP. RAIPH NORMAN (R)\" x2; \"SEN. CHUCK SHUMER\" x1; \"REP.ELISE STEFANIK | (R) NEWYOR\" x1; \"SOCIAL MEDIA POST BY VICE PRESIDENT JD VANCE\" x1; \"(D) Former SC State Representative\" x1; \"PRESIDENT\" x1; \"HOUSF SPFAKER MIKE JOHNSON (R-LA) DFLIVERS REMARKS\" x1; \"HOUSE SPFAKFR MIKF JOHNSON (R-LA) DFLIVFRS RFMARKS\" x1; \"NDIDATE REP. RALPH NORMAN (R)\" x1; \"CANDIDATE REP. RALPH NORMAN (R)\" x1; \".S. SENATE CANDIDATE REP. RALPH NORMAN (R)\" x1\nTitles: Trump reacts to JD Vance blaming election losses on the Iran war | Susan Collins Concedes in Maine Senate race | \u201cI\u2019M DISAPPOINTED!\u201d Mike Johnson Reacts as Republicans Suffer Major Mi | Sen. Thune (R-SD) on President Trump Calling for Elections to be Natio | Senator John Thune On Midterm Elections | Countries react to U.S. midterm election results | Steve Hilton tells Becerra: 'Enjoy it while it lasts' | Republicans react after sweeping defeat by Democrats during midterm el | Trump answers questions from reporters after Republican midterm losses | Senator Thune Discusses Early Results | Thune on improving candidate quality in the Republican party | Crockett, Manchin, Stefanik react to early 2026 midterm results | 'The reason we lost is the war': JD Vance | JD Vance distancing himself from Trump after Republican midterm losses | Senate Majority Leader John Thune joined Hugh to talk about the result | DeSantis warns of 'EXTINCTION-LEVEL event' for GOP | LIVE | 2026 Midterm Election Results: Texas Senate, Governor | REACTIO | Rep. Mike Collins delivers concession speech after losing Georgia's U. | Secretary of State candidate Max Engling speaks at Republican Watch Pa | 'The polls are wrong.' Mike Johnson tells Trump rally 2026 midterms wi | SEN. JOHN THUNE | BREAKING NEWS: Speaker Johnson Speaks After Republicans Lose House Maj | LIVE: Gov. DeSantis speaks after 2026 midterm elections | Republican Zach Lahn delivers concession speech after losing to Democr | Vivek Ramaswamy Concedes Ohio Governor Race to Amy Acton in Emotional "
+ ]
+]

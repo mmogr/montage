@@ -1,0 +1,24 @@
+# Written from general game knowledge. REVISED TWICE after eval (2: added screen_exclude for title screens).
+# Revision 1: the original anchor "princess of hyrule"
+# matched the remake's quest log / HUD tracker, not the meeting. Now anchored on Zelda's speaker label.
+[moment]
+id = "zelda_meeting"
+description = "Link meets Princess Zelda in the castle courtyard for the first time"
+game = "The Legend of Zelda: Ocarina of Time (2026 remake)"
+
+[cues]
+transcript_strong = ["zelda", "princess"]
+transcript_weak = ["cute", "pretty", "window", "ganondorf", "oh my god"]
+transcript_precursor = ["castle", "guard", "moat", "crate", "sneak"]
+precursor_window_s = 900
+comment_keywords = ["zelda", "princess", "courtyard"]
+chapter_pattern = "zelda|princess|courtyard"
+
+[anchor]
+screen_text = "^\\W*z?zelda\\W*$"
+occurrence = "first"
+screen_exclude = ["new game", "starting soon", "continue"]
+
+[clip]
+clip_lead_s = 15
+clip_tail_s = 20

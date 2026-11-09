@@ -1,0 +1,66 @@
+[
+ [
+  "draft",
+  {
+   "mode": "moment",
+   "id": "planned_hyrule_field_oneshot",
+   "description": "The player character steps into Hyrule Field and the reactor expresses awe or excitement about seeing it for the first time.",
+   "game": "Ocarina of Time remake",
+   "screen_text": "hyrule\\s*fiel",
+   "anchor_style": "standalone",
+   "occurrence": "first",
+   "screen_exclude": [
+    "main\\s*menu",
+    "options",
+    "load\\s*game",
+    "new\\s*game",
+    "settings",
+    "quit",
+    "credits",
+    "loading\\s*...",
+    "pause"
+   ],
+   "transcript_strong": [
+    "oh\\s*(my\\s*)?god",
+    "holy\\s*(crap|shit|hell|smoke)",
+    "i\\s*can\\s*not\\s*believe",
+    "this\\s*is\\s*(so\\s*)?amazing",
+    "first\\s*time\\s*in\\s*hyrule",
+    "look\\s*at\\s*this\\s*place",
+    "it\\s*s\\s*(so\\s*)?beautiful",
+    "wow",
+    "no\\s*way",
+    "i\\s*m\\s*actually\\s*(crying|shaking)"
+   ],
+   "transcript_weak": [
+    "finally",
+    "here\\s*we\\s*go",
+    "stepping\\s*out",
+    "the\\s*field",
+    "open\\s*world"
+   ],
+   "transcript_precursor": [
+    "leaving\\s*the\\s*temple",
+    "exiting",
+    "door\\s*opens",
+    "step\\s*outside",
+    "coming\\s*back\\s*to\\s*life",
+    "awakening"
+   ],
+   "comment_keywords": [
+    "first\\s*time",
+    "hyrule\\s*field",
+    "reaction",
+    "breathtaking",
+    "beautiful",
+    "aww",
+    "so\\s*pretty",
+    "emotional"
+   ],
+   "clip_lead_s": 5,
+   "clip_tail_s": 15,
+   "look": "A vast, bright green grassy plain under a blue sky with distant mountains and trees, a small character standing in the foreground"
+  },
+  null
+ ]
+]

@@ -1,0 +1,215 @@
+[
+ [
+  "draft",
+  {
+   "mode": "moment",
+   "id": "great_deku_tree_death_reaction",
+   "description": "The moment the Great Deku Tree collapses and dies after Link defeats Octoroks/impas, typically marked by a cutscene or title card.",
+   "game": "Ocarina of Time remake",
+   "screen_text": "great\\s*deku\\s*tree",
+   "anchor_style": "standalone",
+   "occurrence": "first",
+   "screen_exclude": [
+    "quest\\s*log",
+    "inventory",
+    "item\\s*get",
+    "save",
+    "quit",
+    "options",
+    "controls",
+    "title",
+    "main\\s*menu",
+    "map",
+    "dungeon\\s*map",
+    "hyrule\\s*fiel",
+    "deku\\s*town"
+   ],
+   "transcript_strong": [
+    "deku\\s*tree\\s*dead",
+    "deku\\s*tree\\s*dying",
+    "deku\\s*tree\\s*down",
+    "deku\\s*tree\\s*is\\s*dead",
+    "deku\\s*tree\\s*finally\\s*dead",
+    "deku\\s*tree\\s*collaps",
+    "deku\\s*tree\\s*falls"
+   ],
+   "transcript_weak": [
+    "deku\\s*tree",
+    "oh\\s*no",
+    "what\\s*is\\s*happening",
+    "he\\s*s\\s*dead",
+    "it\\s*\\s*s\\s*dead"
+   ],
+   "transcript_precursor": [
+    "final\\s*boss",
+    "last\\s*stage",
+    "deku\\s*tree\\s*fight",
+    "defending\\s*the\\s*tree"
+   ],
+   "comment_keywords": [
+    "deku\\s*tree",
+    "deku\\s*tree\\s*dead",
+    "deku\\s*tree\\s*reaction",
+    "first\\s*boss",
+    "deku\\s*tree\\s*collapse"
+   ],
+   "clip_lead_s": 5,
+   "clip_tail_s": 10,
+   "look": "A large, ancient tree with a face is collapsing or turning brown/grey in a grassy clearing, with particles or dust rising as it falls.",
+   "interpretation": "Interpreted as the specific cutscene/gameplay moment where the Great Deku Tree dies, which usually triggers strong reactions in playthroughs and reaction videos. The 'remake' is assumed to refer to the HD Remaster or similar high-definition version given the query, but the spec targets the visual and textual cues present in any OoT playthrough featuring this boss."
+  },
+  null
+ ],
+ [
+  "revise1",
+  {
+   "mode": "moment",
+   "id": "great_deku_tree_death_reaction",
+   "description": "The moment the Great Deku Tree collapses and dies after Link defeats the Octoroks, typically marked by the death cutscene.",
+   "game": "The Legend of Zelda: Ocarina of Time (2011 Remaster)",
+   "screen_text": "great\\s*deku\\s*tree",
+   "anchor_style": "standalone",
+   "occurrence": "first",
+   "screen_exclude": [
+    "quest\\s*log",
+    "inventory",
+    "item\\s*get",
+    "save",
+    "quit",
+    "options",
+    "controls",
+    "title",
+    "main\\s*menu",
+    "map",
+    "dungeon\\s*map",
+    "hyrule\\s*fiel",
+    "deku\\s*town",
+    "gem\\s*bestowed",
+    "only\\s*people\\s*summoned",
+    "last\\s*will",
+    "last\\s*words",
+    "last\\s*spirit",
+    "changed\\s*with\\s*the\\s*great",
+    "it\\s*s\\s*inside\\s*you",
+    "really\\s*true",
+    "is\\s*dead"
+   ],
+   "transcript_strong": [
+    "deku\\s*tree\\s*dead",
+    "deku\\s*tree\\s*dying",
+    "deku\\s*tree\\s*down",
+    "deku\\s*tree\\s*is\\s*dead",
+    "deku\\s*tree\\s*finally\\s*dead",
+    "deku\\s*tree\\s*collaps",
+    "deku\\s*tree\\s*falls",
+    "he\\s*s\\s*gone",
+    "the\\s*tree\\s*is\\s*dead"
+   ],
+   "transcript_weak": [
+    "deku\\s*tree",
+    "oh\\s*no",
+    "what\\s*is\\s*happening",
+    "he\\s*s\\s*dead",
+    "it\\s*s\\s*dead",
+    "no\\s*no"
+   ],
+   "transcript_precursor": [
+    "final\\s*boss",
+    "last\\s*stage",
+    "deku\\s*tree\\s*fight",
+    "defending\\s*the\\s*tree",
+    "octorok",
+    "boss\\s*fight"
+   ],
+   "comment_keywords": [
+    "deku\\s*tree",
+    "deku\\s*tree\\s*dead",
+    "deku\\s*tree\\s*reaction",
+    "first\\s*boss",
+    "deku\\s*tree\\s*collapse",
+    "emotional"
+   ],
+   "clip_lead_s": 5,
+   "clip_tail_s": 15,
+   "look": "A large, ancient tree with a face is collapsing or turning brown/grey in a grassy clearing, with particles or dust rising as it falls.",
+   "interpretation": "Interpreted as the specific cutscene/gameplay moment where the Great Deku Tree dies. The spec targets the visual and textual cues present in playthroughs. I have refined the screen_exclude list to filter out dialogue lines where the tree is mentioned (e.g., 'last will', 'gem bestowed') to ensure the anchor focuses on the actual death event rather than earlier exposition or post-game summaries, although the core 'GREAT DEKU TREE' title card is the primary marker."
+  },
+  "screen_text 'great\\\\s*deku\\\\s*tree': 111 matching OCR lines in 41/62 videos.\ngame 'Ocarina of Time remake' gives title pattern 'Ocarina\\\\s*of\\\\s*Time' (frames showing it are excluded as title screens/overlays); it matches on-screen text in 48/62 videos.\nMost common matched lines: \"GREAT DEKU TREE\" x33; \"THE GREAT DEKU TREE\" x15; \"Only people summoned by the Great Deku Tree\" x3; \"Great Deku Tree!\" x3; \"gem bestowed on you by the Great Deku Tree.\" x3; \"Hmm. That was the Great Deku Tree's last\" x2; \"They all changed with the Great Deku Tree's\" x2; \"Hmm... That was the Great Deku Tree's last\" x1; \"What? i's reafly true? The Great Deku Tree is.\" x1; \"Ob no! It's insade you, Great Deku Tree?\" x1\nPosition in video (fraction of duration): median 0.32; 0 of 111 matches are in the first 3% of a video.\nVisible duration per occurrence: median 0s, max 30s (long = persistent HUD/menu). Occurrences per video: median 2 frames.\n56/111 matches are short standalone lines (<=30 chars); the rest are inside longer text.\nText that appears in the SAME frame as matches (often part of the same card, e.g. a subtitle under a name; putting it in screen_exclude would remove those matches): \"Back O\" x3; \"sub: 101/250\" x2; \"Link Wates Ur\" x2; \"Bick O\" x2; \"na's sotlege fund: 9/50\" x1; \"a's collge fund: 10/50\" x1; \"+e Ceemetier O\" x1; \"POOOXDIX\" x1; \"-OOOOXDIX\" x1; \"CrT A F TD IOnOL\" x1; \"peentor O\" x1; \"\u2022 The Fanst\" x1\nWord phrases on screen within 90 s after matches (OCR is noisy, so phrases not whole lines), with how many videos show each. If the anchor is a name seen in several scenes, a phrase said only at the event is a better anchor: \"fair bit of\" in 8; \"you know ive\" in 7; \"ive got fair\" in 6; \"got fair bit\" in 6; \"of the forest\" in 6; \"stone of the\" in 5; \"this is the\" in 5; \"which were the\" in 5; \"know ive got\" in 4; \"to me the\" in 4; \"one that has\" in 4; \"say no to\" in 4; \"how can say\" in 4; \"that woold become\" in 4; \"can say no\" in 4; \"bit of inowledge\" in 4; \"you and we\" in 4; \"know ive gor\" in 4; \"coming to an\" in 4; \"is the spirkual\" in 4; \"of which were\" in 4; \"taught me about\" in 4; \"tree taught me\" in 4; \"you have to\" in 4; \"it to you\" in 3; \"on this for\" in 3; \"me the fell\" in 3; \"that has been\" in 3; \"task of no\" in 3; \"here in the\" in 3\nAFTER screen_exclude: 111 matches survive in 41/62 videos; exclusions removed 0 matches in 0 videos. Removing real event frames loses videos; only exclude text that marks NON-event frames.\nEXPLORE - short on-screen lines containing query words, with how many videos show them: \"OCARINA OF TIME\" in 47 videos; \"DEKU STICK\" in 35 videos; \"GREAT DEKU TREE\" in 28 videos; \"DEKU SHIELD\" in 25 videos; \"DEKU NUT\" in 16 videos; \"OCARINA\" in 16 videos; \"OCARINA OFTIME\" in 13 videos; \"LINK WAKES UP\" in 12 videos; \"FIVE DEKU NUTS\" in 10 videos; \"THE GREAT DEKU TREE\" in 10 videos; \"OCARINA OFT ME\" in 6 videos; \"OCARINA OI\" in 5 videos; \"AFTER A SALE, RETUM HERE TO THE HAPPY MA\" in 5 videos; \"OCARINA OFIME\" in 5 videos; \"OCARINA OF TIM\" in 4 videos; \"DEKU STICK - 10/10\" in 4 videos; \"GEM BESTOWED ON YOU BY THE GREAT DEKU TR\" in 4 videos; \"LINK WATES UP\" in 4 videos; \"DEKU NUT \u2022 1/20\" in 3 videos; \"ONLY PEOPLE SUMMONED BY THE GREAT DEKU T\" in 3 videos"
+ ],
+ [
+  "revise2",
+  {
+   "mode": "moment",
+   "id": "planned_deku_tree_death_probe",
+   "description": "The moment the Great Deku Tree collapses and dies after Link defeats the Octoroks, marked by the boss name card or specific death dialogue.",
+   "game": "The Legend of Zelda: Ocarina of Time (2011 Remaster)",
+   "screen_text": "great\\s*deku\\s*tree",
+   "anchor_style": "standalone",
+   "occurrence": "first",
+   "screen_exclude": [
+    "quest\\s*log",
+    "inventory",
+    "item\\s*get",
+    "save",
+    "quit",
+    "options",
+    "controls",
+    "title",
+    "main\\s*menu",
+    "map",
+    "dungeon\\s*map",
+    "hyrule\\s*fiel",
+    "deku\\s*town",
+    "ocarina\\s*of\\s*time",
+    "only\\s*people\\s*summoned",
+    "gem\\s*bestowed",
+    "they\\s*all\\s*changed",
+    "i\\s*m\\s*sure\\s*that",
+    "last\\s*words",
+    "really\\s*true",
+    "is\\s*dead",
+    "inside\\s*you"
+   ],
+   "transcript_strong": [
+    "deku\\s*tree\\s*dead",
+    "deku\\s*tree\\s*dying",
+    "deku\\s*tree\\s*down",
+    "deku\\s*tree\\s*is\\s*dead",
+    "deku\\s*tree\\s*finally\\s*dead",
+    "deku\\s*tree\\s*collaps",
+    "deku\\s*tree\\s*falls",
+    "he\\s*s\\s*gone",
+    "the\\s*tree\\s*is\\s*dead"
+   ],
+   "transcript_weak": [
+    "deku\\s*tree",
+    "oh\\s*no",
+    "what\\s*is\\s*happening",
+    "he\\s*s\\s*dead",
+    "it\\s*s\\s*dead",
+    "no\\s*no"
+   ],
+   "transcript_precursor": [
+    "final\\s*boss",
+    "last\\s*stage",
+    "deku\\s*tree\\s*fight",
+    "defending\\s*the\\s*tree",
+    "octorok",
+    "boss\\s*fight"
+   ],
+   "comment_keywords": [
+    "deku\\s*tree",
+    "deku\\s*tree\\s*dead",
+    "deku\\s*tree\\s*reaction",
+    "first\\s*boss",
+    "deku\\s*tree\\s*collapse",
+    "emotional"
+   ],
+   "clip_lead_s": 5,
+   "clip_tail_s": 15,
+   "look": "A large, ancient tree with a face is collapsing or turning brown/grey in a grassy clearing, with particles or dust rising as it falls.",
+   "interpretation": "Interpreted as the specific cutscene/gameplay moment where the Great Deku Tree dies. The spec targets the visual and textual cues present in playthroughs. The anchor relies on the 'GREAT DEKU TREE' boss name card which appears at the start of the fight (which leads to the death) or potentially at the death cutscene in some contexts, while excluding earlier dialogue mentions like 'Only people summoned...' and 'gem bestowed...' to avoid false positives in the pre-boss exposition."
+  },
+  "screen_text 'great\\\\s*deku\\\\s*tree': 111 matching OCR lines in 41/62 videos.\ngame 'The Legend of Zelda: Ocarina of Time (2011 Remaster)' gives title pattern 'Ocarina\\\\s*of\\\\s*Time' (frames showing it are excluded as title screens/overlays); it matches on-screen text in 48/62 videos.\nMost common matched lines: \"GREAT DEKU TREE\" x33; \"THE GREAT DEKU TREE\" x15; \"Only people summoned by the Great Deku Tree\" x3; \"Great Deku Tree!\" x3; \"gem bestowed on you by the Great Deku Tree.\" x3; \"Hmm. That was the Great Deku Tree's last\" x2; \"They all changed with the Great Deku Tree's\" x2; \"Hmm... That was the Great Deku Tree's last\" x1; \"What? i's reafly true? The Great Deku Tree is.\" x1; \"Ob no! It's insade you, Great Deku Tree?\" x1\nPosition in video (fraction of duration): median 0.32; 0 of 111 matches are in the first 3% of a video.\nVisible duration per occurrence: median 0s, max 30s (long = persistent HUD/menu). Occurrences per video: median 2 frames.\n56/111 matches are short standalone lines (<=30 chars); the rest are inside longer text.\nText that appears in the SAME frame as matches (often part of the same card, e.g. a subtitle under a name; putting it in screen_exclude would remove those matches): \"Back O\" x3; \"sub: 101/250\" x2; \"Link Wates Ur\" x2; \"Bick O\" x2; \"na's sotlege fund: 9/50\" x1; \"a's collge fund: 10/50\" x1; \"+e Ceemetier O\" x1; \"POOOXDIX\" x1; \"-OOOOXDIX\" x1; \"CrT A F TD IOnOL\" x1; \"peentor O\" x1; \"\u2022 The Fanst\" x1\nWord phrases on screen within 90 s after matches (OCR is noisy, so phrases not whole lines), with how many videos show each. If the anchor is a name seen in several scenes, a phrase said only at the event is a better anchor: \"fair bit of\" in 8; \"you know ive\" in 7; \"ive got fair\" in 6; \"got fair bit\" in 6; \"of the forest\" in 6; \"stone of the\" in 5; \"this is the\" in 5; \"which were the\" in 5; \"know ive got\" in 4; \"to me the\" in 4; \"one that has\" in 4; \"say no to\" in 4; \"how can say\" in 4; \"that woold become\" in 4; \"can say no\" in 4; \"bit of inowledge\" in 4; \"you and we\" in 4; \"know ive gor\" in 4; \"coming to an\" in 4; \"is the spirkual\" in 4; \"of which were\" in 4; \"taught me about\" in 4; \"tree taught me\" in 4; \"you have to\" in 4; \"it to you\" in 3; \"on this for\" in 3; \"me the fell\" in 3; \"that has been\" in 3; \"task of no\" in 3; \"here in the\" in 3\nAFTER screen_exclude: 102 matches survive in 40/62 videos; exclusions removed 9 matches in 8 videos: 'only\\\\s*people\\\\s*summoned' removed 3 (e.g. \"Only people summoned by the Great Deku T\"); 'gem\\\\s*bestowed' removed 4 (e.g. \"gem bestowed on you by the Great Deku Tr\"); 'changed\\\\s*with\\\\s*the\\\\s*great' removed 2 (e.g. \"They all changed with the Great Deku Tre\"). Removing real event frames loses videos; only exclude text that marks NON-event frames.\nEXPLORE - short on-screen lines containing query words, with how many videos show them: \"OCARINA OF TIME\" in 47 videos; \"DEKU STICK\" in 35 videos; \"GREAT DEKU TREE\" in 28 videos; \"DEKU SHIELD\" in 25 videos; \"DEKU NUT\" in 16 videos; \"OCARINA\" in 16 videos; \"OCARINA OFTIME\" in 13 videos; \"LINK WAKES UP\" in 12 videos; \"FIVE DEKU NUTS\" in 10 videos; \"DEATH MOUNTAIN TRAIL\" in 10 videos; \"THE GREAT DEKU TREE\" in 10 videos; \"OCARINA OFT ME\" in 6 videos; \"OCARINA OI\" in 5 videos; \"AFTER A SALE, RETUM HERE TO THE HAPPY MA\" in 5 videos; \"OCARINA OFIME\" in 5 videos; \"OCARINA OF TIM\" in 4 videos; \"DEKU STICK - 10/10\" in 4 videos; \"GEM BESTOWED ON YOU BY THE GREAT DEKU TR\" in 4 videos; \"LINK WATES UP\" in 4 videos; \"DEKU NUT \u2022 1/20\" in 3 videos"
+ ]
+]

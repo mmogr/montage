@@ -1,0 +1,16 @@
+[spec]
+mode = "moment"
+id = "planned_zelda_meeting_oneshot"
+description = "The moment the player first meets Princess Zelda in the Oracle of Ages (remake context implied by user error, but adhering to 'Ocarina of Time remake' instruction which is impossible as OoT has no remake; however, 'Ocarina of Time' is the base. Wait, 'Ocarina of Time remake' usually refers to the 3D Classics version or a hypothetical new release. Let's assume the user means the standard OoT encounter in the Temple of Time. Actually, OoT has no 'remake' per se, but '3D Classics' is a port. Let's treat 'Ocarina of Time' as the game. The first meeting is in the Temple of Time."
+game = "The Legend of Zelda: Ocarina of Time"
+screen_text = "Princess\\s*Zelda"
+anchor_style = "standalone"
+occurrence = "first"
+screen_exclude = ["Menu", "Quest\\s*Log", "Map", "Inventory", "C\\-\\s*?Menu", "Z\\-\\s*?Menu", "D\\-\\s*?Pad", "C\\-\\s*?Stick"]
+transcript_strong = ["meet(ing)?\\s+(Princess\\s+)?Zelda", "first\\s+time\\s+(I\\s+)?(see|meet)\\s+Zelda", "here\\s+she\\s+is", "look\\s+at\\s+her"]
+transcript_weak = ["Zelda", "Princess"]
+transcript_precursor = ["Temple\\s+of\\s+Time", "entering\\s+the\\s+temple", "let\\s+s\\s+go\\s+meet\\s+her"]
+comment_keywords = ["Zelda\\s+is\\s+here", "finally\\s+seeing\\s+Zelda", "wow\\s+Zelda"]
+clip_lead_s = 5
+clip_tail_s = 10
+look = "A blue-dressed woman with blonde hair standing in a large stone temple chamber with a golden clock in the background."

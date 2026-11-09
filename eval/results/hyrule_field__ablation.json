@@ -1,0 +1,65 @@
+[
+ {
+  "config": "screen+context+refine+vseed+vgate+vfill",
+  "wall_s": 190.5,
+  "slices": 0,
+  "slice_mb": 0.0,
+  "http_429": 0,
+  "failures": 0,
+  "context_cues": [
+   [
+    "here",
+    36.30000000000018
+   ],
+   [
+    "gaebora",
+    36.899999999999636
+   ],
+   [
+    "leads",
+    76.89999999999964
+   ],
+   [
+    "road",
+    77.60000000000036
+   ],
+   [
+    "such",
+    97.60000000000036
+   ],
+   [
+    "should",
+    97.80000000000018
+   ],
+   [
+    "upon",
+    97.80000000000018
+   ],
+   [
+    "moments",
+    99.0
+   ]
+  ],
+  "visual_fill": {
+   "seeds": 13,
+   "threshold": 0.9,
+   "filled": 7
+  },
+  "vlm_calls": 0,
+  "present": 36,
+  "absent": 0,
+  "unknown": 26,
+  "predictions": 38,
+  "pred_on_unknown": 4,
+  "hits": 34,
+  "precision": 1.0,
+  "recall": 0.944,
+  "err_median_s": 0.0,
+  "err_p90_s": 1.0,
+  "wrong": [],
+  "missed": [
+   "fAu6JNfAtIo",
+   "yCgjSQ04kh4"
+  ]
+ }
+]

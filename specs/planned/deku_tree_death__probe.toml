@@ -1,0 +1,17 @@
+[spec]
+mode = "moment"
+id = "planned_deku_tree_death_probe"
+description = "The moment the Great Deku Tree collapses and dies after Link defeats the Octoroks, marked by the boss name card or specific death dialogue."
+game = "The Legend of Zelda: Ocarina of Time (2011 Remaster)"
+screen_text = "great\\s*deku\\s*tree"
+anchor_style = "standalone"
+occurrence = "first"
+screen_exclude = ["quest\\s*log", "inventory", "item\\s*get", "save", "quit", "options", "controls", "title", "main\\s*menu", "map", "dungeon\\s*map", "hyrule\\s*fiel", "deku\\s*town", "ocarina\\s*of\\s*time", "only\\s*people\\s*summoned", "gem\\s*bestowed", "they\\s*all\\s*changed", "i\\s*m\\s*sure\\s*that", "last\\s*words", "really\\s*true", "is\\s*dead", "inside\\s*you"]
+transcript_strong = ["deku\\s*tree\\s*dead", "deku\\s*tree\\s*dying", "deku\\s*tree\\s*down", "deku\\s*tree\\s*is\\s*dead", "deku\\s*tree\\s*finally\\s*dead", "deku\\s*tree\\s*collaps", "deku\\s*tree\\s*falls", "he\\s*s\\s*gone", "the\\s*tree\\s*is\\s*dead"]
+transcript_weak = ["deku\\s*tree", "oh\\s*no", "what\\s*is\\s*happening", "he\\s*s\\s*dead", "it\\s*s\\s*dead", "no\\s*no"]
+transcript_precursor = ["final\\s*boss", "last\\s*stage", "deku\\s*tree\\s*fight", "defending\\s*the\\s*tree", "octorok", "boss\\s*fight"]
+comment_keywords = ["deku\\s*tree", "deku\\s*tree\\s*dead", "deku\\s*tree\\s*reaction", "first\\s*boss", "deku\\s*tree\\s*collapse", "emotional"]
+clip_lead_s = 5
+clip_tail_s = 15
+look = "A large, ancient tree with a face is collapsing or turning brown/grey in a grassy clearing, with particles or dust rising as it falls."
+interpretation = "Interpreted as the specific cutscene/gameplay moment where the Great Deku Tree dies. The spec targets the visual and textual cues present in playthroughs. The anchor relies on the 'GREAT DEKU TREE' boss name card which appears at the start of the fight (which leads to the death) or potentially at the death cutscene in some contexts, while excluding earlier dialogue mentions like 'Only people summoned...' and 'gem bestowed...' to avoid false positives in the pre-boss exposition."

@@ -1,0 +1,22 @@
+# Written from general game knowledge only (not tuned on corpus data).
+[moment]
+id = "gohma"
+description = "First encounter with Queen Gohma, the boss of Inside the Deku Tree"
+game = "The Legend of Zelda: Ocarina of Time (2026 remake)"
+
+[cues]
+transcript_strong = ["gohma", "\\bboss\\b", "spider", "\\beye\\b"]
+transcript_weak = ["oh my god", "what", "big", "scary", "gross", "nope"]
+transcript_precursor = ["deku tree", "slingshot", "basement", "web"]
+precursor_window_s = 900
+comment_keywords = ["gohma", "boss", "spider"]
+chapter_pattern = "gohma|boss"
+
+[anchor]
+screen_text = "gohma|arachnid"
+occurrence = "first"
+anchor_style = "standalone"
+
+[clip]
+clip_lead_s = 10
+clip_tail_s = 25

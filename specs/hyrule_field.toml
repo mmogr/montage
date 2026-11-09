@@ -1,0 +1,39 @@
+# Every value here was hard-coded in the prototype (scripts/analyze.py, scripts/locate.py).
+
+[moment]
+id = "hyrule_field"
+description = "The player steps out of Kokiri Forest into Hyrule Field for the first time"
+game = "The Legend of Zelda: Ocarina of Time (2026 remake)"
+
+[discover]
+queries = [
+  "ocarina of time remake first time reaction",
+  "ocarina of time remake blind playthrough part 1",
+  "ocarina of time remake hyrule field reaction",
+  "ocarina of time remake first time playing",
+  "ocarina of time remake live stream day 1",
+]
+since = "2026-11-05"
+min_duration_s = 1800
+title_exclude = ["no commentary", "direct", "trailer", "review", "reacts", "analy", "100%", "full game"]
+
+[cues]
+transcript_strong = ["hyrule field", "\\bthe field\\b", "kaepora", "\\bowl\\b"]
+transcript_weak = ["open world", "so big", "huge", "music", "theme", "beautiful", "gorgeous",
+                   "breathtaking", "goosebumps", "chills", "wow", "whoa", "holy"]
+transcript_precursor = ["\\bsaria\\b", "\\bbridge\\b", "ocarina"]
+precursor_window_s = 600
+comment_keywords = ["hyrule field", "\\bfield\\b", "\\bowl\\b", "kaepora", "saria", "bridge"]
+chapter_pattern = "hyrule field"
+
+[anchor]
+screen_text = "hyrule\\s*fiel"
+occurrence = "first"
+refine_before_s = 15
+refine_after_s = 15
+search_before_s = 110
+search_after_s = 50
+
+[clip]
+clip_lead_s = 20
+clip_tail_s = 14

@@ -1,0 +1,290 @@
+{
+ "moment": "gop_midterm_reactions",
+ "kind": "statements",
+ "query": "Republican politicians reacting to the 2026 midterm election results",
+ "labeller": "Claude (main session), 2026-11-09, from captions/chyrons/metadata BEFORE seeing system output",
+ "duplicates": [
+  [
+   "-mqnBKkrpAU",
+   "FI7r_sxrP3s"
+  ],
+  [
+   "2jvRmmiK_ng",
+   "btNPxhaLsZY"
+  ],
+  [
+   "8zL4hAL7108",
+   "ehkyIHGUvNc"
+  ],
+  [
+   "ZrZJLqPvVGc",
+   "-mqnBKkrpAU"
+  ]
+ ],
+ "videos": {
+  "-mqnBKkrpAU": {
+   "status": "labelled",
+   "segments": [
+    {
+     "speaker": "Donald Trump",
+     "start": 4,
+     "end": 105,
+     "note": "answers reporters about losses; same gaggle as FI7r_sxrP3s"
+    }
+   ],
+   "note": ""
+  },
+  "-WQ7RW4HA1Q": {
+   "status": "labelled",
+   "segments": [],
+   "note": "reporters talk ABOUT Collins conceding; she never speaks"
+  },
+  "2jvRmmiK_ng": {
+   "status": "labelled",
+   "segments": [
+    {
+     "speaker": "Mike Johnson",
+     "start": 0,
+     "end": 112,
+     "note": "concession remarks; same speech as btNPxhaLsZY"
+    }
+   ],
+   "note": ""
+  },
+  "70oHLu7E3eU": {
+   "status": "labelled",
+   "segments": [],
+   "note": "Feb 2026, nationalizing elections; pre-election"
+  },
+  "m-ILKkehjOo": {
+   "status": "labelled",
+   "segments": [],
+   "note": "Jan 2026 preview; pre-election"
+  },
+  "75JfKMcipTw": {
+   "status": "labelled",
+   "segments": [],
+   "note": "world leaders / voters abroad"
+  },
+  "cStKnsBnaQs": {
+   "status": "labelled",
+   "segments": [
+    {
+     "speaker": "Steve Hilton",
+     "start": 47,
+     "end": 106,
+     "note": "concession speech clip inside report"
+    }
+   ],
+   "note": ""
+  },
+  "ZrZJLqPvVGc": {
+   "status": "labelled",
+   "segments": [
+    {
+     "speaker": "Donald Trump",
+     "start": 49,
+     "end": 58,
+     "note": "soundbite (same gaggle as AP/NBC). LABEL FIX: missed in first labelling pass; surfaced by system run think_off, verified in captions"
+    }
+   ],
+   "note": "anchors summarizing + one Trump soundbite; Democratic soundbites at ~70s excluded"
+  },
+  "FI7r_sxrP3s": {
+   "status": "labelled",
+   "segments": [
+    {
+     "speaker": "Donald Trump",
+     "start": 28,
+     "end": 300,
+     "note": "gaggle answers on losses; rest is Iran/building"
+    }
+   ],
+   "note": ""
+  },
+  "4Jpyxc4JRkM": {
+   "status": "labelled",
+   "segments": [],
+   "note": "2018 election"
+  },
+  "S0_PgKAxLPQ": {
+   "status": "labelled",
+   "segments": [],
+   "note": "2022 election"
+  },
+  "uDy0Y9fbi0A": {
+   "status": "labelled",
+   "segments": [
+    {
+     "speaker": "Elise Stefanik",
+     "start": 35,
+     "end": 75,
+     "note": ""
+    },
+    {
+     "speaker": "Elise Stefanik",
+     "start": 81,
+     "end": 100,
+     "note": ""
+    }
+   ],
+   "note": "mixed panel; Crockett (D), Manchin (I) excluded"
+  },
+  "E_E3NGqGqhQ": {
+   "status": "labelled",
+   "segments": [],
+   "note": "anchor reads Vance statement + panel; Vance never speaks"
+  },
+  "LddF2cF1IGQ": {
+   "status": "ambiguous",
+   "segments": [],
+   "note": "John Bolton, former official turned commentator"
+  },
+  "xaNS1kUxpGU": {
+   "status": "labelled",
+   "segments": [],
+   "note": "May 2026 Texas primary results"
+  },
+  "8zL4hAL7108": {
+   "status": "labelled",
+   "segments": [
+    {
+     "speaker": "Ron DeSantis",
+     "start": 0,
+     "end": 700,
+     "note": "opening statement on results"
+    },
+    {
+     "speaker": "Ron DeSantis",
+     "start": 990,
+     "end": 1440,
+     "note": "results Q&A"
+    },
+    {
+     "speaker": "Ron DeSantis",
+     "start": 1620,
+     "end": 1950,
+     "note": "results Q&A"
+    }
+   ],
+   "note": "press conference; other stretches are Florida policy"
+  },
+  "WajE86ZfE54": {
+   "status": "partial",
+   "segments": [
+    {
+     "speaker": "Orlando Sanchez",
+     "start": 8535,
+     "end": 8562,
+     "note": "soundbite after reporter intro"
+    }
+   ],
+   "note": "3h livestream; searched not fully read"
+  },
+  "-AACZN9OPrI": {
+   "status": "coarse",
+   "segments": [
+    {
+     "speaker": "Mike Collins",
+     "start": 15,
+     "end": 335,
+     "note": ""
+    }
+   ],
+   "note": "concession speech; chyron MIKE COLLINS"
+  },
+  "3BDmQI-KK5s": {
+   "status": "coarse",
+   "segments": [
+    {
+     "speaker": "Max Engling",
+     "start": 15,
+     "end": 201,
+     "note": ""
+    }
+   ],
+   "note": "concession speech (IN Secretary of State candidate)"
+  },
+  "8oxXXRRTNcA": {
+   "status": "labelled",
+   "segments": [],
+   "note": "Nov 2 rally, pre-election"
+  },
+  "BBdaAlQl16c": {
+   "status": "labelled",
+   "segments": [],
+   "note": "2009 health care presser"
+  },
+  "btNPxhaLsZY": {
+   "status": "coarse",
+   "segments": [
+    {
+     "speaker": "Mike Johnson",
+     "start": 0,
+     "end": 886,
+     "note": ""
+    }
+   ],
+   "note": "chyron HOUSE SPEAKER MIKE JOHNSON (R-LA) DELIVERS REMARKS"
+  },
+  "ehkyIHGUvNc": {
+   "status": "coarse",
+   "segments": [
+    {
+     "speaker": "Ron DeSantis",
+     "start": 0,
+     "end": 2230,
+     "note": ""
+    }
+   ],
+   "note": "same press conference as 8zL4hAL7108"
+  },
+  "gh-D3T_cqao": {
+   "status": "coarse",
+   "segments": [
+    {
+     "speaker": "Zach Lahn",
+     "start": 10,
+     "end": 501,
+     "note": ""
+    }
+   ],
+   "note": "concession speech"
+  },
+  "HxzGDi2Mcvo": {
+   "status": "unknown",
+   "segments": [],
+   "note": "LABEL FIX: no captions; title says concession speech but content unverified (system reads it as news montage)"
+  },
+  "m9jL2S1tHhk": {
+   "status": "labelled",
+   "segments": [],
+   "note": "Aug 2026 GOP Senate primary concession"
+  },
+  "FYGX-PkTbNo": {
+   "status": "unknown",
+   "segments": [],
+   "note": "no captions; cannot label"
+  },
+  "KMWyndiZ2nQ": {
+   "status": "unknown",
+   "segments": [],
+   "note": "no captions; cannot label"
+  },
+  "lmzKbJAFrys": {
+   "status": "unknown",
+   "segments": [],
+   "note": "no captions; cannot label"
+  },
+  "mCcuPQri6GA": {
+   "status": "unknown",
+   "segments": [],
+   "note": "no captions; cannot label"
+  },
+  "nLW3uS9bit8": {
+   "status": "unknown",
+   "segments": [],
+   "note": "no captions; cannot label"
+  }
+ }
+}

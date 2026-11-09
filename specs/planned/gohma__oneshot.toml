@@ -1,0 +1,16 @@
+[spec]
+mode = "moment"
+id = "planned_gohma_oneshot"
+description = "The player defeats Gohma for the first time in the Ocarina of Time remake."
+game = "Ocarina of Time remake"
+screen_text = "gohma"
+anchor_style = "standalone"
+occurrence = "first"
+screen_exclude = ["title", "menu", "load", "settings", "save", "continue", "new game", "credits", "loading"]
+transcript_strong = ["gohma", "beat gohma", "gohma down", "kill gohma"]
+transcript_weak = ["boss", "dead", "defeated"]
+transcript_precursor = ["gohma", "boss fight", "watch this"]
+comment_keywords = ["gohma", "boss", "first time"]
+clip_lead_s = 5
+clip_tail_s = 10
+look = "A large, multi-legged insect-like boss with glowing red eyes in a dark, cavernous room with lava pools."

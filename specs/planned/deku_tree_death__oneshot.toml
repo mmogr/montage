@@ -1,0 +1,17 @@
+[spec]
+mode = "moment"
+id = "planned_deku_tree_death_oneshot"
+description = "The moment the Great Deku Tree shatters into debris after being struck by the Master Sword."
+game = "The Legend of Zelda: Ocarina of Time (remake)"
+screen_text = "None"
+anchor_style = "standalone"
+occurrence = "first"
+screen_exclude = ["inventory", "map", "save", "quit", "settings", "load", "title"]
+transcript_strong = ["great deku tree", "he died", "he is gone", "deku tree died", "oh no", "no", "what happened", "dead"]
+transcript_weak = ["deku", "tree", "shatter", "break", "destroy"]
+transcript_precursor = ["strike", "swoosh", "slash", "hit", "final blow"]
+comment_keywords = ["deku tree", "deku died", "tree dead", "shatter", "died", "gone"]
+clip_lead_s = 5
+clip_tail_s = 10
+look = "A massive, green, wooden tree trunk collapsing and shattering into large chunks of bark and wood on a grassy forest floor, with white impact particles scattering."
+interpretation = "The query asks for the specific in-game event where the Great Deku Tree dies in the Ocarina of Time remake. Since the original game and remakes do not display a distinct 'Great Deku Tree' name card or dialogue line at the exact moment of death (unlike boss name cards), screen_text is null to avoid false positives from menus or unrelated dialogue. The search relies on visual recognition of the unique shattering animation and strong audio cues of the impact and subsequent silence/reaction."

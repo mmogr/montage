@@ -1,0 +1,41 @@
+[
+ [
+  "draft",
+  {
+   "mode": "statements",
+   "id": "planned_gop_midterm_reactions_oneshot",
+   "description": "Republican politicians delivering statements or interviews reacting to the 2026 midterm election results.",
+   "who": "Elected or appointed officials holding or seeking office under the Republican Party banner, including House/Senate members, governors, candidates, party leaders, and convention speakers. Excludes independent politicians, Democrats, and non-political commentators or analysts.",
+   "what": "Comments, analysis, or direct addresses concerning the outcome, results, victory, defeat, or implications of the 2026 US midterm elections.",
+   "after": "2026-11-03",
+   "exclude_sources": [
+    "Videos of the 2024 or 2022 midterm election cycles",
+    "Primary election night coverage",
+    "General political commentary without specific reference to the 2026 election outcome",
+    "Simulated or historical reenactments"
+   ],
+   "topic_keywords": [
+    "midterm",
+    "election\\s*2026",
+    "november\\s*2026",
+    "voting\\s*results",
+    "ballot",
+    "polls",
+    "win",
+    "loss",
+    "victory",
+    "defeat",
+    "majority",
+    "control",
+    "chamber",
+    "house",
+    "senate",
+    "governor\\s*race",
+    "district"
+   ],
+   "interpretation": "Interpreted 'midterm results' as the specific outcome of the 2026 US midterm elections (held in November 2026). Included all forms of political reaction (congratulatory, critical, explanatory) from Republican figures. Excluded reactions from non-Republican individuals or reactions to primary elections.",
+   "game": ""
+  },
+  null
+ ]
+]

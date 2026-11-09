@@ -1,0 +1,37 @@
+[
+ {
+  "config": "screen+context+refine+vseed+vgate+vfill",
+  "wall_s": 11.2,
+  "slices": 0,
+  "slice_mb": 0.0,
+  "http_429": 0,
+  "failures": 0,
+  "context_cues": [
+   [
+    "arachnid",
+    -6.099999999999909
+   ]
+  ],
+  "visual_fill": {
+   "seeds": 14,
+   "threshold": 0.9,
+   "filled": 2
+  },
+  "vlm_calls": 0,
+  "present": 16,
+  "absent": 0,
+  "unknown": 46,
+  "predictions": 16,
+  "pred_on_unknown": 2,
+  "hits": 14,
+  "precision": 1.0,
+  "recall": 0.875,
+  "err_median_s": 0.0,
+  "err_p90_s": 0.0,
+  "wrong": [],
+  "missed": [
+   "AqWWkm-ltFg",
+   "QeSk-Lz9_ns"
+  ]
+ }
+]

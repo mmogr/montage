@@ -1,0 +1,15 @@
+# Statement-mode spec, written as a planner would from the user's query.
+# REVISED ONCE after dev-set eval: topic_keywords use stems ("conced" matched "conceding"; "concede" did not).
+# Query: "republican politicians reacting to the midterm results"
+[moment]
+id = "gop_midterm_reactions"
+mode = "statements"
+description = "Republican politicians reacting to the 2026 midterm election results"
+game = ""
+
+[statements]
+who = "a Republican politician speaking themselves: an elected official, candidate, or party/administration leader who is a Republican (e.g. senators, representatives, governors, the President, Vice President). Not pundits, strategists, hosts, reporters, comedians or voters."
+what = "reacting to or commenting on the outcome of the 2026 US midterm elections (wins, losses, concessions, explanations of the results, what they mean)"
+after = "2026-11-03"
+exclude_sources = "parody or impersonation videos; commentary videos where others talk ABOUT the politician without the politician speaking; footage from earlier elections"
+topic_keywords = ["elect", "midterm", "result", "\\blost\\b", "\\bloss", "\\bwon\\b", "\\bwin", "conced", "defeat", "majority", "voters"]

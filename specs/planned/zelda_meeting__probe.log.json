@@ -1,0 +1,187 @@
+[
+ [
+  "draft",
+  {
+   "mode": "moment",
+   "id": "zelda_reveal_oot_remaster",
+   "description": "The moment Princess Zelda is revealed or encountered for the first time in the Ocarina of Time remake.",
+   "game": "Ocarina of Time remake",
+   "screen_text": "zelda",
+   "anchor_style": "any",
+   "occurrence": "first",
+   "screen_exclude": [
+    "save\\s*data",
+    "new\\s*game",
+    "load\\s*game",
+    "options",
+    "credits",
+    "pause",
+    "select\\s*character",
+    "main\\s*menu",
+    "title\\s*screen",
+    "loading"
+   ],
+   "transcript_strong": [
+    "is\\s*zelda",
+    "queen\\s*zelda",
+    "princess\\s*zelda",
+    "zelda\\s*right\\s*there",
+    "look\\s*at\\s*zelda",
+    "meet\\s*zelda",
+    "zelda\\s*appears"
+   ],
+   "transcript_weak": [
+    "zelda",
+    "who\\s*is\\s*she",
+    "is\\s*that\\s*zelda"
+   ],
+   "transcript_precursor": [
+    "door",
+    "gate",
+    "walk\\s*in",
+    "enter",
+    "hallway",
+    "temple"
+   ],
+   "comment_keywords": [
+    "zelda",
+    "queen",
+    "princess",
+    "reunion",
+    "meeting"
+   ],
+   "clip_lead_s": 5,
+   "clip_tail_s": 10,
+   "look": "A woman in a purple and gold dress and headdress standing in a grand stone hall or castle interior, illuminated by warm light, looking at the player character."
+  },
+  null
+ ],
+ [
+  "revise1",
+  {
+   "mode": "moment",
+   "id": "zelda_first_meet_oot",
+   "description": "The moment Link first encounters or is greeted by Princess Zelda in the Ocarina of Time remake.",
+   "game": "The Legend of Zelda: Ocarina of Time",
+   "screen_text": "princess\\s+zelda",
+   "anchor_style": "standalone",
+   "occurrence": "first",
+   "screen_exclude": [
+    "zelda\\s+notes?",
+    "zelda'?s\\s+(letter|lullaby)",
+    "legend\\s+of\\s+zelda",
+    "ocarina\\s+of\\s*time",
+    "ocarina\\s+of\\s+time",
+    "starting\\s+soon",
+    "main\\s+menu",
+    "title\\s+screen",
+    "pause",
+    "options",
+    "save\\s+data",
+    "load\\s+game",
+    "credits",
+    "guess\\s+music",
+    "game\\s+&\\s+title",
+    "amiibo"
+   ],
+   "transcript_strong": [
+    "princess\\s+zelda",
+    "queen\\s+zelda",
+    "this\\s+is\\s+zelda",
+    "meet\\s+zelda",
+    "zelda\\s+right\\s+there",
+    "look\\s+at\\s+zelda",
+    "it'?s\\s+zelda"
+   ],
+   "transcript_weak": [
+    "zelda",
+    "who\\s+is\\s+that",
+    "is\\s+that\\s+zelda",
+    "hyrule\\s+castle"
+   ],
+   "transcript_precursor": [
+    "castle",
+    "hallway",
+    "throne",
+    "corridor",
+    "king's\\s+chamber"
+   ],
+   "comment_keywords": [
+    "zelda",
+    "princess",
+    "queen",
+    "first\\s+meet",
+    "reunion"
+   ],
+   "clip_lead_s": 5,
+   "clip_tail_s": 10,
+   "look": "A woman in a green or purple dress and golden headdress standing in a grand stone castle hallway or throne room, illuminated by warm torchlight, facing the player character."
+  },
+  "screen_text 'zelda': 139 matching OCR lines in 42/62 videos.\ngame 'Ocarina of Time remake' gives title pattern 'Ocarina\\\\s*of\\\\s*Time\\\\s*remake' (frames showing it are excluded as title screens/overlays); it matches on-screen text in 0/62 videos. If that is 0, the game name is probably wrong; check the explored lines below.\nMost common matched lines: \"ZELDA\" x32; \"Zelda's Letter\" x18; \"- ZELDA NOTES\" x8; \"3 ZELDA NOTES\" x5; \"ZELDA NOTES\" x5; \"ZZELDA\" x3; \"Zelda's Lullaby\" x2; \"\u2014 ZELDA NOTES\" x2; \"LEGEND OF ZELDA\" x2; \"O ZELDA NOTES\" x2\nPosition in video (fraction of duration): median 0.13; 45 of 139 matches are in the first 3% of a video.\nVisible duration per occurrence: median 0s, max 120s (long = persistent HUD/menu). Occurrences per video: median 2 frames.\n98/139 matches are short standalone lines (<=30 chars); the rest are inside longer text.\nText that appears in the SAME frame as matches (often part of the same card, e.g. a subtitle under a name; putting it in screen_exclude would remove those matches): \"OCARINA OF TIME\" x24; \"Guess Music's Game & Title\" x16; \"THE LEGEND OF\" x13; \"STARTING SOON\" x7; \"amiibo:\" x6; \"STARTING SOOR\" x4; \"BE RIGHT BACK!\" x4; \"OCARINA DETIME\" x4; \"STARTING SOOK\" x3; \"OCARINA DE TIME\" x3; \"DOOOXDIX\" x2; \"sub: 101/250\" x2\nAFTER screen_exclude: 139 matches survive in 42/62 videos; exclusions removed 0 matches in 0 videos. Removing real event frames loses videos; only exclude text that marks NON-event frames.\nEXPLORE - short on-screen lines containing query words, with how many videos show them: \"OCARINA OF TIME\" in 47 videos; \"PRINCESS OF HYRULE CASTLE\" in 27 videos; \"ZELDA\" in 18 videos; \"OCARINA\" in 16 videos; \"OCARINA OFTIME\" in 13 videos; \"- ZELDA NOTES\" in 6 videos; \"ZELDA'S LETTER\" in 6 videos; \"OCARINA OFT ME\" in 6 videos; \"OCARINA OI\" in 5 videos; \"OCARINA OFIME\" in 5 videos; \"OCARINA OF TIM\" in 4 videos; \"3 ZELDA NOTES\" in 4 videos; \"ZELDA NOTES\" in 4 videos; \"FAIRY OCARINA\" in 3 videos; \"OCARINA OF TIMI\" in 3 videos; \"ZZELDA\" in 3 videos; \"OCARINA DE TIME\" in 2 videos; \"ZELDA'S LULLABY\" in 2 videos; \"OCARINA OFE ME\" in 2 videos; \"OCARINA OF FIME\" in 2 videos"
+ ],
+ [
+  "revise2",
+  {
+   "mode": "moment",
+   "id": "planned_zelda_meeting_probe",
+   "description": "The moment Link first encounters or is greeted by Princess Zelda in the Ocarina of Time remake.",
+   "game": "The Legend of Zelda: Ocarina of Time",
+   "screen_text": "(princess\\s+)?zelda\\s*$",
+   "anchor_style": "any",
+   "occurrence": "first",
+   "screen_exclude": [
+    "zelda\\s+notes?",
+    "zelda'?s\\s+(letter|lullaby)",
+    "legend\\s+of\\s+zelda",
+    "ocarina\\s+of\\s*time",
+    "ocarina\\s+of\\s*time",
+    "starting\\s+soon",
+    "main\\s+menu",
+    "title\\s+screen",
+    "pause",
+    "options",
+    "save\\s+data",
+    "load\\s+game",
+    "credits",
+    "guess\\s+music",
+    "game\\s+&\\s+title",
+    "amiibo",
+    "compensation\\s+log",
+    "royal\\s+family"
+   ],
+   "transcript_strong": [
+    "princess\\s+zelda",
+    "queen\\s+zelda",
+    "this\\s+is\\s+zelda",
+    "meet\\s+zelda",
+    "zelda\\s+right\\s+there",
+    "look\\s+at\\s+zelda",
+    "it'?s\\s+zelda"
+   ],
+   "transcript_weak": [
+    "zelda",
+    "who\\s+is\\s+that",
+    "is\\s+that\\s+zelda",
+    "hyrule\\s+castle"
+   ],
+   "transcript_precursor": [
+    "castle",
+    "hallway",
+    "throne",
+    "corridor",
+    "king's\\s+chamber"
+   ],
+   "comment_keywords": [
+    "zelda",
+    "princess",
+    "queen",
+    "first\\s+meet",
+    "reunion"
+   ],
+   "clip_lead_s": 5,
+   "clip_tail_s": 10,
+   "look": "A woman in a green or purple dress and golden headdress standing in a grand stone castle hallway or throne room, illuminated by warm torchlight, facing the player character."
+  },
+  "screen_text 'princess\\\\s+zelda': 9 matching OCR lines in 9/62 videos.\ngame 'The Legend of Zelda: Ocarina of Time' gives title pattern 'Ocarina\\\\s*of\\\\s*Time' (frames showing it are excluded as title screens/overlays); it matches on-screen text in 48/62 videos.\nMost common matched lines: \"the name of Princess Zelda, of the royal family\" x1; \"\u1ea1in the name of Princess Zelda, of the royal farily.\" x1; \"of Princess Zelda, of the royal famiy\" x1; \"Think about how Princess Zelda is a ways cooped\" x1; \"\"In the name of Princess Zelda, of the royal farmily\" x1; \"in the rame of Princess Zelda, of the royal family\" x1; \"\"In the name of Princess Zelda, of the royal farily\" x1; \"Think abour how Princess Zelda in always cooped\" x1; \"Think about how Princess Zelda is\" x1\nPosition in video (fraction of duration): median 0.70; 0 of 9 matches are in the first 3% of a video.\nVisible duration per occurrence: median 0s, max 0s (long = persistent HUD/menu). Occurrences per video: median 1 frames.\n0/9 matches are short standalone lines (<=30 chars); the rest are inside longer text.\nText that appears in the SAME frame as matches (often part of the same card, e.g. a subtitle under a name; putting it in screen_exclude would remove those matches): \"ona's callege fund: 52/Sc\" x1; \"Srmeoue oane mnosna\" x1; \"maenlo\u0119 O\" x1; \"veon Log O\" x1; \"velon lor O\" x1; \"uo in D cooral\" x1; \"CE ryao, ESun\" x1; \"Cpenation Log O\" x1; \"of Hyrule, is this decre herby penned\" x1; \"Hele e Comendion Log O\" x1; \"2900 14Pe- 2y tal b 50 bored\" x1\nAFTER screen_exclude: 9 matches survive in 9/62 videos; exclusions removed 0 matches in 0 videos. Removing real event frames loses videos; only exclude text that marks NON-event frames.\nEXPLORE - short on-screen lines containing query words, with how many videos show them: \"OCARINA OF TIME\" in 47 videos; \"PRINCESS OF HYRULE CASTLE\" in 27 videos; \"ZELDA\" in 18 videos; \"OCARINA\" in 16 videos; \"OCARINA OFTIME\" in 13 videos; \"LINK WAKES UP\" in 12 videos; \"- ZELDA NOTES\" in 6 videos; \"ZELDA'S LETTER\" in 6 videos; \"OCARINA OFT ME\" in 6 videos; \"OCARINA OI\" in 5 videos; \"OCARINA OFIME\" in 5 videos; \"OCARINA OF TIM\" in 4 videos; \"3 ZELDA NOTES\" in 4 videos; \"ZELDA NOTES\" in 4 videos; \"LINK WATES UP\" in 4 videos; \"FAIRY OCARINA\" in 3 videos; \"OCARINA OF TIMI\" in 3 videos; \"ZZELDA\" in 3 videos; \"OCARINA DE TIME\" in 2 videos; \"ZELDA'S LULLABY\" in 2 videos"
+ ]
+]

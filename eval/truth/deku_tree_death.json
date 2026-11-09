@@ -1,0 +1,379 @@
+{
+ "moment": "deku_tree_death",
+ "event": "first frame the Deku Tree's line '...my time is finally coming to an end' is OCR-readable (360p)",
+ "tolerance_s": 5,
+ "videos": {
+  "-_dlFN0Y5kw": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "16P7HS9Gv8o": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "1UEfEqhrRik": {
+   "status": "present",
+   "t": 5850.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "1lnTcqnqB-o": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "2BKzH0BrwJE": {
+   "status": "present",
+   "t": 3749.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "40ISBBpoCG8": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "5duudnvlMcE": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "5wxzzkss0Tc": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "79NZJTU3R-A": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "7zgHQlHbArU": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "8ygHUpWUPCs": {
+   "status": "present",
+   "t": 5585.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "9KI0ImDnnwA": {
+   "status": "present",
+   "t": 4002.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "9P4zWoPIHAY": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "9eZHuOtCyYI": {
+   "status": "present",
+   "t": 1354.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "AWOqDlNSGFg": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "AqWWkm-ltFg": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "ErlzIawWbqE": {
+   "status": "present",
+   "t": 3670.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "FNfLW_Xa5WE": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "IBoRzTyPUtQ": {
+   "status": "present",
+   "t": 4804.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "K-wmAFPZcRY": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "LMOIpmtOCos": {
+   "status": "present",
+   "t": 3595.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "N-H_1qsQApI": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "NQNLL3DIj6Y": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "Nawn1HCuz_4": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "OOjJGTVdpII": {
+   "status": "present",
+   "t": 5033.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "PqrTzNM9InI": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "QeSk-Lz9_ns": {
+   "status": "present",
+   "t": 4237.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "RcsrHI4J6Rk": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "Rj39s8B-oHY": {
+   "status": "present",
+   "t": 6349.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "SL8RWDCldyM": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "UXaqpskUYOs": {
+   "status": "present",
+   "t": 8433.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "WdY7JF4Cdqw": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "Y2ZXey96jCA": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "ZCFXOaLwl2Y": {
+   "status": "present",
+   "t": 4206.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "ZKdlwKBwePA": {
+   "status": "present",
+   "t": 4051.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "ZV3QTfnaMjg": {
+   "status": "present",
+   "t": 4263.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "_BNfbfz9aZE": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "bVD9mjhWLt4": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "cQzmLsU8uXg": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "cSSGbHr8rw0": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "fAu6JNfAtIo": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "g8NGW0tPE1I": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "gppwpLKr1xI": {
+   "status": "present",
+   "t": 5481.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "kUtCJImptB0": {
+   "status": "present",
+   "t": 5025.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "kXJ3_UOY8Hc": {
+   "status": "present",
+   "t": 8730.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "kdCm_0YbzrE": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "lO9Q5kq7a3w": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "lWX62gwly5g": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "lZHuGGDb2Mw": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "n6fQGNE7Hdg": {
+   "status": "present",
+   "t": 4410.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "oa5vjl1oSRk": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "ozm0O_6l-gA": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "psBAO9J4enI": {
+   "status": "present",
+   "t": 7742.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "qODyUXkPytM": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "qog9nchbo_M": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "sYCqaod99j8": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "tS2RPRw5K60": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "veMiTsEIRfI": {
+   "status": "present",
+   "t": 11548.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "yCgjSQ04kh4": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "ySNsPIbtVLM": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "yb2zBfiJSpA": {
+   "status": "present",
+   "t": 8188.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "yeUD0dtNYG8": {
+   "status": "present",
+   "t": 7118.0,
+   "verified": "frames: contact sheet (farewell speech, line visible at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  }
+ }
+}

@@ -1,0 +1,481 @@
+{
+ "hyrule_field": {
+  "query": "reactions of people stepping into Hyrule Field for the first time in the Ocarina of Time remake",
+  "hand": {
+   "precision": 0.789,
+   "recall": 0.417,
+   "hits": 15,
+   "predictions": 23,
+   "present": 36,
+   "err_median_s": 4.7,
+   "wrong": [
+    [
+     "ZKdlwKBwePA",
+     3730.4
+    ],
+    [
+     "g8NGW0tPE1I",
+     10414.0
+    ],
+    [
+     "qODyUXkPytM",
+     12629.2
+    ],
+    [
+     "yCgjSQ04kh4",
+     5384.3
+    ]
+   ],
+   "missed": [
+    "16P7HS9Gv8o",
+    "7zgHQlHbArU",
+    "AWOqDlNSGFg",
+    "AqWWkm-ltFg",
+    "ErlzIawWbqE",
+    "IBoRzTyPUtQ",
+    "LMOIpmtOCos",
+    "N-H_1qsQApI",
+    "NQNLL3DIj6Y",
+    "QeSk-Lz9_ns",
+    "SL8RWDCldyM",
+    "ZV3QTfnaMjg",
+    "kXJ3_UOY8Hc",
+    "psBAO9J4enI",
+    "veMiTsEIRfI",
+    "yb2zBfiJSpA",
+    "yeUD0dtNYG8"
+   ]
+  },
+  "oneshot": {
+   "precision": 0.789,
+   "recall": 0.417,
+   "hits": 15,
+   "predictions": 23,
+   "present": 36,
+   "err_median_s": 4.7,
+   "wrong": [
+    [
+     "ZKdlwKBwePA",
+     3730.4
+    ],
+    [
+     "g8NGW0tPE1I",
+     10414.0
+    ],
+    [
+     "qODyUXkPytM",
+     12629.2
+    ],
+    [
+     "yCgjSQ04kh4",
+     5384.3
+    ]
+   ],
+   "missed": [
+    "16P7HS9Gv8o",
+    "7zgHQlHbArU",
+    "AWOqDlNSGFg",
+    "AqWWkm-ltFg",
+    "ErlzIawWbqE",
+    "IBoRzTyPUtQ",
+    "LMOIpmtOCos",
+    "N-H_1qsQApI",
+    "NQNLL3DIj6Y",
+    "QeSk-Lz9_ns",
+    "SL8RWDCldyM",
+    "ZV3QTfnaMjg",
+    "kXJ3_UOY8Hc",
+    "psBAO9J4enI",
+    "veMiTsEIRfI",
+    "yb2zBfiJSpA",
+    "yeUD0dtNYG8"
+   ],
+   "plan_s": 64
+  },
+  "probe": {
+   "precision": 0.846,
+   "recall": 0.611,
+   "hits": 22,
+   "predictions": 30,
+   "present": 36,
+   "err_median_s": 4.7,
+   "wrong": [
+    [
+     "ZKdlwKBwePA",
+     3730.4
+    ],
+    [
+     "g8NGW0tPE1I",
+     10414.0
+    ],
+    [
+     "qODyUXkPytM",
+     12629.2
+    ],
+    [
+     "yCgjSQ04kh4",
+     5384.3
+    ]
+   ],
+   "missed": [
+    "7zgHQlHbArU",
+    "AqWWkm-ltFg",
+    "IBoRzTyPUtQ",
+    "NQNLL3DIj6Y",
+    "SL8RWDCldyM",
+    "fAu6JNfAtIo",
+    "kXJ3_UOY8Hc",
+    "psBAO9J4enI",
+    "veMiTsEIRfI",
+    "yeUD0dtNYG8"
+   ],
+   "plan_s": 343
+  }
+ },
+ "gohma": {
+  "query": "people fighting Gohma for the first time in the Ocarina of Time remake",
+  "hand": {
+   "precision": 1.0,
+   "recall": 0.562,
+   "hits": 9,
+   "predictions": 9,
+   "present": 16,
+   "err_median_s": 2.9,
+   "wrong": [],
+   "missed": [
+    "5wxzzkss0Tc",
+    "AqWWkm-ltFg",
+    "QeSk-Lz9_ns",
+    "kXJ3_UOY8Hc",
+    "psBAO9J4enI",
+    "ySNsPIbtVLM",
+    "yb2zBfiJSpA"
+   ]
+  },
+  "oneshot": {
+   "precision": 1.0,
+   "recall": 0.562,
+   "hits": 9,
+   "predictions": 9,
+   "present": 16,
+   "err_median_s": 2.9,
+   "wrong": [],
+   "missed": [
+    "5wxzzkss0Tc",
+    "AqWWkm-ltFg",
+    "QeSk-Lz9_ns",
+    "kXJ3_UOY8Hc",
+    "psBAO9J4enI",
+    "ySNsPIbtVLM",
+    "yb2zBfiJSpA"
+   ],
+   "plan_s": 326
+  },
+  "probe": {
+   "precision": 1.0,
+   "recall": 0.562,
+   "hits": 9,
+   "predictions": 9,
+   "present": 16,
+   "err_median_s": 2.9,
+   "wrong": [],
+   "missed": [
+    "5wxzzkss0Tc",
+    "AqWWkm-ltFg",
+    "QeSk-Lz9_ns",
+    "kXJ3_UOY8Hc",
+    "psBAO9J4enI",
+    "ySNsPIbtVLM",
+    "yb2zBfiJSpA"
+   ],
+   "plan_s": 419
+  }
+ },
+ "zelda_meeting": {
+  "query": "people's reactions when they meet Princess Zelda for the first time in the Ocarina of Time remake",
+  "hand": {
+   "precision": 0.8,
+   "recall": 0.8,
+   "hits": 4,
+   "predictions": 5,
+   "present": 5,
+   "err_median_s": 2.1,
+   "wrong": [
+    [
+     "RcsrHI4J6Rk",
+     19.8
+    ]
+   ],
+   "missed": []
+  },
+  "oneshot": {
+   "precision": null,
+   "recall": 0.0,
+   "hits": 0,
+   "predictions": 0,
+   "present": 5,
+   "err_median_s": null,
+   "wrong": [],
+   "missed": [
+    "PqrTzNM9InI",
+    "RcsrHI4J6Rk",
+    "kUtCJImptB0",
+    "psBAO9J4enI",
+    "yeUD0dtNYG8"
+   ],
+   "plan_s": 66
+  },
+  "probe": {
+   "precision": 0.8,
+   "recall": 0.8,
+   "hits": 4,
+   "predictions": 5,
+   "present": 5,
+   "err_median_s": 2.1,
+   "wrong": [
+    [
+     "RcsrHI4J6Rk",
+     19.8
+    ]
+   ],
+   "missed": [],
+   "plan_s": 257
+  }
+ },
+ "deku_tree_death": {
+  "query": "reactions to the Great Deku Tree dying in the Ocarina of Time remake",
+  "hand": {
+   "precision": 0.957,
+   "recall": 0.957,
+   "hits": 22,
+   "predictions": 31,
+   "present": 23,
+   "err_median_s": 4.2,
+   "wrong": [
+    [
+     "gppwpLKr1xI",
+     -4394.9
+    ]
+   ],
+   "missed": []
+  },
+  "oneshot": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "hits": 0,
+   "predictions": 25,
+   "present": 23,
+   "err_median_s": 2173.1,
+   "wrong": [
+    [
+     "1UEfEqhrRik",
+     -4575.3
+    ],
+    [
+     "2BKzH0BrwJE",
+     -2253.1
+    ],
+    [
+     "8ygHUpWUPCs",
+     -2073.0
+    ],
+    [
+     "9KI0ImDnnwA",
+     -1878.0
+    ],
+    [
+     "9eZHuOtCyYI",
+     -642.8
+    ],
+    [
+     "ErlzIawWbqE",
+     -1617.0
+    ],
+    [
+     "LMOIpmtOCos",
+     -1631.1
+    ],
+    [
+     "QeSk-Lz9_ns",
+     -1841.5
+    ],
+    [
+     "Rj39s8B-oHY",
+     -2355.3
+    ],
+    [
+     "gppwpLKr1xI",
+     -2276.5
+    ],
+    [
+     "psBAO9J4enI",
+     -2838.4
+    ],
+    [
+     "veMiTsEIRfI",
+     -2405.8
+    ],
+    [
+     "yb2zBfiJSpA",
+     2093.0
+    ],
+    [
+     "yeUD0dtNYG8",
+     -4621.7
+    ]
+   ],
+   "missed": [
+    "IBoRzTyPUtQ",
+    "OOjJGTVdpII",
+    "UXaqpskUYOs",
+    "ZCFXOaLwl2Y",
+    "ZKdlwKBwePA",
+    "ZV3QTfnaMjg",
+    "kUtCJImptB0",
+    "kXJ3_UOY8Hc",
+    "n6fQGNE7Hdg"
+   ],
+   "plan_s": 417
+  },
+  "probe": {
+   "precision": null,
+   "recall": 0.0,
+   "hits": 0,
+   "predictions": 0,
+   "present": 23,
+   "err_median_s": null,
+   "wrong": [],
+   "missed": [
+    "1UEfEqhrRik",
+    "2BKzH0BrwJE",
+    "8ygHUpWUPCs",
+    "9KI0ImDnnwA",
+    "9eZHuOtCyYI",
+    "ErlzIawWbqE",
+    "IBoRzTyPUtQ",
+    "LMOIpmtOCos",
+    "OOjJGTVdpII",
+    "QeSk-Lz9_ns",
+    "Rj39s8B-oHY",
+    "UXaqpskUYOs",
+    "ZCFXOaLwl2Y",
+    "ZKdlwKBwePA",
+    "ZV3QTfnaMjg",
+    "gppwpLKr1xI",
+    "kUtCJImptB0",
+    "kXJ3_UOY8Hc",
+    "n6fQGNE7Hdg",
+    "psBAO9J4enI",
+    "veMiTsEIRfI",
+    "yb2zBfiJSpA",
+    "yeUD0dtNYG8"
+   ],
+   "plan_s": 147
+  }
+ },
+ "gop_midterm_reactions": {
+  "query": "republican politicians reacting to the midterm results",
+  "hand": {
+   "precision": 1.0,
+   "recall": 0.938,
+   "hits": 14,
+   "segments_found": 15,
+   "segments_total": 16,
+   "negative_videos_with_false_hits": "0/11",
+   "wrong": [],
+   "missed": [
+    [
+     "WajE86ZfE54",
+     "Orlando Sanchez",
+     8535
+    ]
+   ]
+  },
+  "oneshot": {
+   "precision": 1.0,
+   "recall": 0.688,
+   "hits": 11,
+   "segments_found": 11,
+   "segments_total": 16,
+   "negative_videos_with_false_hits": "0/11",
+   "wrong": [],
+   "missed": [
+    [
+     "ZrZJLqPvVGc",
+     "Donald Trump",
+     49
+    ],
+    [
+     "WajE86ZfE54",
+     "Orlando Sanchez",
+     8535
+    ],
+    [
+     "-AACZN9OPrI",
+     "Mike Collins",
+     15
+    ],
+    [
+     "3BDmQI-KK5s",
+     "Max Engling",
+     15
+    ],
+    [
+     "gh-D3T_cqao",
+     "Zach Lahn",
+     10
+    ]
+   ],
+   "plan_s": 1452
+  },
+  "probe": {
+   "precision": 0.909,
+   "recall": 0.625,
+   "hits": 10,
+   "segments_found": 10,
+   "segments_total": 16,
+   "negative_videos_with_false_hits": "0/11",
+   "wrong": [
+    [
+     "ZrZJLqPvVGc",
+     "Hakeem Jeffries",
+     80,
+     85
+    ]
+   ],
+   "missed": [
+    [
+     "cStKnsBnaQs",
+     "Steve Hilton",
+     47
+    ],
+    [
+     "WajE86ZfE54",
+     "Orlando Sanchez",
+     8535
+    ],
+    [
+     "-AACZN9OPrI",
+     "Mike Collins",
+     15
+    ],
+    [
+     "3BDmQI-KK5s",
+     "Max Engling",
+     15
+    ],
+    [
+     "btNPxhaLsZY",
+     "Mike Johnson",
+     0
+    ],
+    [
+     "gh-D3T_cqao",
+     "Zach Lahn",
+     10
+    ]
+   ],
+   "plan_s": 1304
+  }
+ }
+}

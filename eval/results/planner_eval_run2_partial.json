@@ -1,0 +1,200 @@
+{
+ "hyrule_field": {
+  "query": "reactions of people stepping into Hyrule Field for the first time in the Ocarina of Time remake",
+  "hand": {
+   "precision": 0.789,
+   "recall": 0.417,
+   "hits": 15,
+   "predictions": 23,
+   "present": 36,
+   "err_median_s": 4.7,
+   "wrong": [
+    [
+     "ZKdlwKBwePA",
+     3730.4
+    ],
+    [
+     "g8NGW0tPE1I",
+     10414.0
+    ],
+    [
+     "qODyUXkPytM",
+     12629.2
+    ],
+    [
+     "yCgjSQ04kh4",
+     5384.3
+    ]
+   ],
+   "missed": [
+    "16P7HS9Gv8o",
+    "7zgHQlHbArU",
+    "AWOqDlNSGFg",
+    "AqWWkm-ltFg",
+    "ErlzIawWbqE",
+    "IBoRzTyPUtQ",
+    "LMOIpmtOCos",
+    "N-H_1qsQApI",
+    "NQNLL3DIj6Y",
+    "QeSk-Lz9_ns",
+    "SL8RWDCldyM",
+    "ZV3QTfnaMjg",
+    "kXJ3_UOY8Hc",
+    "psBAO9J4enI",
+    "veMiTsEIRfI",
+    "yb2zBfiJSpA",
+    "yeUD0dtNYG8"
+   ]
+  },
+  "oneshot": {
+   "precision": 0.789,
+   "recall": 0.417,
+   "hits": 15,
+   "predictions": 23,
+   "present": 36,
+   "err_median_s": 4.7,
+   "wrong": [
+    [
+     "ZKdlwKBwePA",
+     3730.4
+    ],
+    [
+     "g8NGW0tPE1I",
+     10414.0
+    ],
+    [
+     "qODyUXkPytM",
+     12629.2
+    ],
+    [
+     "yCgjSQ04kh4",
+     5384.3
+    ]
+   ],
+   "missed": [
+    "16P7HS9Gv8o",
+    "7zgHQlHbArU",
+    "AWOqDlNSGFg",
+    "AqWWkm-ltFg",
+    "ErlzIawWbqE",
+    "IBoRzTyPUtQ",
+    "LMOIpmtOCos",
+    "N-H_1qsQApI",
+    "NQNLL3DIj6Y",
+    "QeSk-Lz9_ns",
+    "SL8RWDCldyM",
+    "ZV3QTfnaMjg",
+    "kXJ3_UOY8Hc",
+    "psBAO9J4enI",
+    "veMiTsEIRfI",
+    "yb2zBfiJSpA",
+    "yeUD0dtNYG8"
+   ],
+   "plan_s": 312
+  },
+  "probe": {
+   "precision": 0.833,
+   "recall": 0.694,
+   "hits": 25,
+   "predictions": 34,
+   "present": 36,
+   "err_median_s": 4.6,
+   "wrong": [
+    [
+     "ZKdlwKBwePA",
+     3730.4
+    ],
+    [
+     "g8NGW0tPE1I",
+     10414.0
+    ],
+    [
+     "qODyUXkPytM",
+     12629.2
+    ],
+    [
+     "veMiTsEIRfI",
+     25.6
+    ],
+    [
+     "yCgjSQ04kh4",
+     5384.3
+    ]
+   ],
+   "missed": [
+    "7zgHQlHbArU",
+    "AqWWkm-ltFg",
+    "SL8RWDCldyM",
+    "fAu6JNfAtIo",
+    "kXJ3_UOY8Hc",
+    "psBAO9J4enI"
+   ],
+   "plan_s": 599
+  }
+ },
+ "gohma": {
+  "query": "people fighting Gohma for the first time in the Ocarina of Time remake",
+  "hand": {
+   "precision": 1.0,
+   "recall": 0.562,
+   "hits": 9,
+   "predictions": 9,
+   "present": 16,
+   "err_median_s": 2.9,
+   "wrong": [],
+   "missed": [
+    "5wxzzkss0Tc",
+    "AqWWkm-ltFg",
+    "QeSk-Lz9_ns",
+    "kXJ3_UOY8Hc",
+    "psBAO9J4enI",
+    "ySNsPIbtVLM",
+    "yb2zBfiJSpA"
+   ]
+  },
+  "oneshot": {
+   "precision": 1.0,
+   "recall": 0.562,
+   "hits": 9,
+   "predictions": 9,
+   "present": 16,
+   "err_median_s": 2.9,
+   "wrong": [],
+   "missed": [
+    "5wxzzkss0Tc",
+    "AqWWkm-ltFg",
+    "QeSk-Lz9_ns",
+    "kXJ3_UOY8Hc",
+    "psBAO9J4enI",
+    "ySNsPIbtVLM",
+    "yb2zBfiJSpA"
+   ],
+   "plan_s": 653
+  },
+  "probe": {
+   "precision": 1.0,
+   "recall": 0.188,
+   "hits": 3,
+   "predictions": 3,
+   "present": 16,
+   "err_median_s": 3.7,
+   "wrong": [],
+   "missed": [
+    "16P7HS9Gv8o",
+    "1UEfEqhrRik",
+    "7zgHQlHbArU",
+    "9P4zWoPIHAY",
+    "AqWWkm-ltFg",
+    "ErlzIawWbqE",
+    "QeSk-Lz9_ns",
+    "Rj39s8B-oHY",
+    "ZKdlwKBwePA",
+    "lO9Q5kq7a3w",
+    "n6fQGNE7Hdg",
+    "psBAO9J4enI",
+    "ySNsPIbtVLM"
+   ],
+   "plan_s": 180
+  }
+ }
+}

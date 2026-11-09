@@ -1,0 +1,36 @@
+# --- Caches and downloaded third-party content (YouTube metadata, captions, storyboards, audio, video slices,
+#     embeddings, vision-model judgments, app jobs). Several GB, rebuilt on demand; never commit. ---
+data/
+
+# --- Generated output (answer markdown, player pages) ---
+out/
+
+# --- Compiled OCR helpers; build from source:
+#     swiftc -O scripts/ocr_storyboard.swift -o bin/ocr_storyboard
+#     swiftc -O scripts/ocr_find.swift -o bin/ocr_find ---
+bin/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Partial / temporary files ---
+*.part
+*.ytdl
+*.tmp
+*.log
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# --- Local tool settings ---
+.claude/settings.local.json
+.env

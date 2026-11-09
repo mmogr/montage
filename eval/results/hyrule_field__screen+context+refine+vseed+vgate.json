@@ -1,0 +1,718 @@
+{
+ "spec": "hyrule_field",
+ "config": {
+  "name": "screen+context+refine+vseed+vgate",
+  "transcript": false,
+  "comments": false,
+  "chapters": false,
+  "heatmap": false,
+  "screen": true,
+  "context": true,
+  "refine": true,
+  "require_anchor": true,
+  "require_context": true,
+  "sb_offset_s": 0.0,
+  "min_ocr_conf": 0.3,
+  "max_span_s": 300,
+  "vlm_seeds": true,
+  "vlm_gate": true,
+  "seed_target": 1000,
+  "seed_max_checks": 60,
+  "gate_min_conf": 0.6
+ },
+ "cost": {
+  "wall_s": 117.4,
+  "slices": 0,
+  "slice_mb": 0.0,
+  "http_429": 0,
+  "failures": 0,
+  "context_cues": [
+   [
+    "here",
+    36.30000000000018
+   ],
+   [
+    "gaebora",
+    36.899999999999636
+   ],
+   [
+    "leads",
+    76.89999999999964
+   ],
+   [
+    "road",
+    77.60000000000036
+   ],
+   [
+    "such",
+    97.60000000000036
+   ],
+   [
+    "should",
+    97.80000000000018
+   ],
+   [
+    "upon",
+    97.80000000000018
+   ],
+   [
+    "moments",
+    99.0
+   ]
+  ],
+  "vlm_calls": 17
+ },
+ "predictions": {
+  "-_dlFN0Y5kw": {
+   "id": "-_dlFN0Y5kw",
+   "t": 4950.0,
+   "coarse": 4945.0,
+   "method": "screen+ctx+refine",
+   "score": 2,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 1.0,
+    "what": "The player character is standing in a vast, open grassy area with rolling hills and a dirt path, with the location name 'HYRULE FIELD' displayed on screen."
+   }
+  },
+  "16P7HS9Gv8o": {
+   "id": "16P7HS9Gv8o",
+   "t": 9331.0,
+   "coarse": 9334.6,
+   "method": "context+refine",
+   "score": 5,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.95,
+    "what": "A character is walking through a grassy field towards distant mountains, with a large on-screen title card reading 'HYRULE' in the center of the middle frame."
+   }
+  },
+  "1UEfEqhrRik": {
+   "id": "1UEfEqhrRik",
+   "t": 7167.0,
+   "coarse": 7157.0,
+   "method": "screen+ctx+refine",
+   "score": 5,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.98,
+    "what": "Middle frame shows a wide view of open grassy plains with a large on-screen label reading 'Hyrule Field', matching the moment of stepping into Hyrule Field. Left frame is the forest edge, right frame "
+   }
+  },
+  "1lnTcqnqB-o": {
+   "id": "1lnTcqnqB-o",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "2BKzH0BrwJE": {
+   "id": "2BKzH0BrwJE",
+   "t": 4638.0,
+   "coarse": 4636.7,
+   "method": "screen+ctx+refine",
+   "score": 3,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.95,
+    "what": "The middle frame shows the player character standing at the transition from the dark, enclosed Kokiri Forest into the bright, open expanse of Hyrule Field. The right frame confirms this with a 'HYRULE"
+   }
+  },
+  "40ISBBpoCG8": {
+   "id": "40ISBBpoCG8",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": "screen hit(s) without context support (likely revisit)"
+  },
+  "5duudnvlMcE": {
+   "id": "5duudnvlMcE",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "5wxzzkss0Tc": {
+   "id": "5wxzzkss0Tc",
+   "t": null,
+   "coarse": 2567.6,
+   "method": "context",
+   "score": 2,
+   "error": "refine: no anchor in slice"
+  },
+  "79NZJTU3R-A": {
+   "id": "79NZJTU3R-A",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "7zgHQlHbArU": {
+   "id": "7zgHQlHbArU",
+   "t": 7611.0,
+   "coarse": 7605.5,
+   "method": "context+refine",
+   "score": 5,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.95,
+    "what": "The middle frame shows a wide shot of Hyrule Field with distant mountains and a clear sky, consistent with the view seen when exiting Kokiri Forest. The right frame shows the character from behind loo"
+   }
+  },
+  "8ygHUpWUPCs": {
+   "id": "8ygHUpWUPCs",
+   "t": 6500.0,
+   "coarse": 6490.8,
+   "method": "screen+ctx+refine",
+   "score": 6,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 1.0,
+    "what": "The middle frame shows the on-screen location title card 'HYRULE FIELD' appearing over a wide shot of the grassy field, which is the moment the player first steps out of Kokiri Forest into this area."
+   }
+  },
+  "9KI0ImDnnwA": {
+   "id": "9KI0ImDnnwA",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "9P4zWoPIHAY": {
+   "id": "9P4zWoPIHAY",
+   "t": 11310.0,
+   "coarse": 11301.5,
+   "method": "screen+ctx+refine",
+   "score": 3,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 1.0,
+    "what": "The game is displaying the 'Hyrule Field' location title card as the character stands on the grassy plain, marking the arrival in the new area."
+   }
+  },
+  "9eZHuOtCyYI": {
+   "id": "9eZHuOtCyYI",
+   "t": null,
+   "coarse": 618.2999999999998,
+   "method": "context",
+   "score": 2,
+   "error": "refine: no anchor in slice"
+  },
+  "AWOqDlNSGFg": {
+   "id": "AWOqDlNSGFg",
+   "t": 5596.0,
+   "coarse": 5597.3,
+   "method": "context+refine",
+   "score": 3,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.92,
+    "what": "The middle frame shows a wide, open grassy landscape (Hyrule Field) with rolling hills and distant terrain, transitioning from the darker, tree-heavy forest seen in the left frame. A streamer overlay "
+   }
+  },
+  "AqWWkm-ltFg": {
+   "id": "AqWWkm-ltFg",
+   "t": 7544.0,
+   "coarse": 7546.599999999999,
+   "method": "context+refine",
+   "score": 3,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.95,
+    "what": "A wide, open view of Hyrule Field with rolling green hills and distant mountains, transitioning from a darker forest edge, indicating the player has just entered the field."
+   }
+  },
+  "ErlzIawWbqE": {
+   "id": "ErlzIawWbqE",
+   "t": 4346.0,
+   "coarse": 4345.2,
+   "method": "context+refine",
+   "score": 2,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 1.0,
+    "what": "The middle frame shows the title card 'HYRULE FIELD' appearing over a view of the open landscape from the edge of the forest, which is the exact moment the player enters the field."
+   }
+  },
+  "FNfLW_Xa5WE": {
+   "id": "FNfLW_Xa5WE",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "IBoRzTyPUtQ": {
+   "id": "IBoRzTyPUtQ",
+   "t": 6005.0,
+   "coarse": 6012.2,
+   "method": "context+refine",
+   "score": 4,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.92,
+    "what": "The middle frame shows a wide, open grassy field with distant mountains and a bright sky, consistent with Hyrule Field, flanked by frames showing the transition from the forest (right) into the open a"
+   }
+  },
+  "K-wmAFPZcRY": {
+   "id": "K-wmAFPZcRY",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "LMOIpmtOCos": {
+   "id": "LMOIpmtOCos",
+   "t": 4553.0,
+   "coarse": 4545.099999999999,
+   "method": "context+refine",
+   "score": 5,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.9,
+    "what": "The middle frame shows a wide shot of the open, grassy Hyrule Field with distant mountains, which is the area immediately after exiting Kokiri Forest. The surrounding frames show the transition from t"
+   }
+  },
+  "N-H_1qsQApI": {
+   "id": "N-H_1qsQApI",
+   "t": 5333.0,
+   "coarse": 5336.599999999999,
+   "method": "context+refine",
+   "score": 6,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.92,
+    "what": "A wide landscape view of a vast, open grassy field with distant mountains and a large sky, characteristic of Hyrule Field."
+   }
+  },
+  "NQNLL3DIj6Y": {
+   "id": "NQNLL3DIj6Y",
+   "t": 5682.0,
+   "coarse": 5688.3,
+   "method": "context+refine",
+   "score": 4,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.92,
+    "what": "The middle frame shows a wide, open grassy field with distant mountains and a bright sky, characteristic of Hyrule Field. The left frame shows the edge of a forest (Kokiri Forest), indicating the tran"
+   }
+  },
+  "Nawn1HCuz_4": {
+   "id": "Nawn1HCuz_4",
+   "t": null,
+   "coarse": 1982.7999999999997,
+   "method": "context",
+   "score": 2,
+   "error": "refine: no anchor in slice"
+  },
+  "OOjJGTVdpII": {
+   "id": "OOjJGTVdpII",
+   "t": 6517.0,
+   "coarse": 6514.7,
+   "method": "screen+ctx+refine",
+   "score": 7,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.95,
+    "what": "A title card reading 'HYRULE FIELD' is displayed over a panoramic view of the open landscape, flanked by frames showing the transition from the dark Kokiri Forest to the bright field."
+   }
+  },
+  "PqrTzNM9InI": {
+   "id": "PqrTzNM9InI",
+   "t": 5096.0,
+   "coarse": 5095.7,
+   "method": "screen+ctx+refine",
+   "score": 3,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.95,
+    "what": "The middle frame shows a wide view of rolling green hills, which is the opening landscape of Hyrule Field. The right frame confirms this by displaying the 'HYRULE FIELD' location title card."
+   }
+  },
+  "QeSk-Lz9_ns": {
+   "id": "QeSk-Lz9_ns",
+   "t": 5174.0,
+   "coarse": 5179.8,
+   "method": "context+refine",
+   "score": 2,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.88,
+    "what": "The middle frame shows a wide, open landscape of Hyrule Field with rolling green hills and distant mountains under a bright sky. The frame to the left shows a character (Link) emerging from a rocky ca"
+   }
+  },
+  "RcsrHI4J6Rk": {
+   "id": "RcsrHI4J6Rk",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "Rj39s8B-oHY": {
+   "id": "Rj39s8B-oHY",
+   "t": 7527.0,
+   "coarse": 7546.8,
+   "method": "context+refine",
+   "score": 2,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.95,
+    "what": "The middle frame shows the vast landscape of Hyrule Field with the on-screen text 'HYRULE FIELD' displayed at the bottom, indicating the transition out of Kokiri Forest."
+   }
+  },
+  "SL8RWDCldyM": {
+   "id": "SL8RWDCldyM",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "UXaqpskUYOs": {
+   "id": "UXaqpskUYOs",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "WdY7JF4Cdqw": {
+   "id": "WdY7JF4Cdqw",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "Y2ZXey96jCA": {
+   "id": "Y2ZXey96jCA",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "ZCFXOaLwl2Y": {
+   "id": "ZCFXOaLwl2Y",
+   "t": 5169.0,
+   "coarse": 5165.3,
+   "method": "screen+ctx+refine",
+   "score": 3,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 1.0,
+    "what": "The middle frame shows a landscape of rolling green hills and mountains with a large on-screen text banner that reads 'HYRULE FIELD', indicating the player has just arrived in the region."
+   }
+  },
+  "ZKdlwKBwePA": {
+   "id": "ZKdlwKBwePA",
+   "t": 4656.0,
+   "coarse": 4676.2,
+   "method": "context+refine",
+   "score": 3,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.91,
+    "what": "A streamer's avatar is overlaid on a game view that transitions from a dark forest area (left) to a wide, open grassy field (middle/right), with the text 'HYRULE FIELD' appearing in the final frame, i"
+   }
+  },
+  "ZV3QTfnaMjg": {
+   "id": "ZV3QTfnaMjg",
+   "t": 5023.0,
+   "coarse": 5014.6,
+   "method": "context+refine",
+   "score": 3,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.92,
+    "what": "A character emerging from a forested cave opening in the left frame and standing in the vast, grassy expanse of Hyrule Field in the middle and right frames, with a bright sky and distant mountains."
+   }
+  },
+  "_BNfbfz9aZE": {
+   "id": "_BNfbfz9aZE",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "bVD9mjhWLt4": {
+   "id": "bVD9mjhWLt4",
+   "t": 7326.0,
+   "coarse": 7325.1,
+   "method": "screen+ctx+refine",
+   "score": 5,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.95,
+    "what": "The middle frame shows the view from the top of the cliff overlooking the vast expanse of Hyrule Field, just as the area name card appears on the right, marking the player's first arrival."
+   }
+  },
+  "cQzmLsU8uXg": {
+   "id": "cQzmLsU8uXg",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "cSSGbHr8rw0": {
+   "id": "cSSGbHr8rw0",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "fAu6JNfAtIo": {
+   "id": "fAu6JNfAtIo",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": "screen hit(s) without context support (likely revisit)"
+  },
+  "g8NGW0tPE1I": {
+   "id": "g8NGW0tPE1I",
+   "t": 7982.0,
+   "coarse": 7988.3,
+   "method": "context+refine",
+   "score": 5,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.95,
+    "what": "A character (Zelda) is shown in a cutscene standing at the edge of a path looking out over a vast green field with distant mountains, transitioning from a forested area, which matches the event of lea"
+   }
+  },
+  "gppwpLKr1xI": {
+   "id": "gppwpLKr1xI",
+   "t": 6378.0,
+   "coarse": 6374.9,
+   "method": "screen+ctx+refine",
+   "score": 4,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.95,
+    "what": "The middle frame shows the 'HYRULE FIELD' title card over a wide shot of the open landscape, which appears immediately after Link steps out of Kokiri Forest."
+   }
+  },
+  "kUtCJImptB0": {
+   "id": "kUtCJImptB0",
+   "t": 5687.0,
+   "coarse": 5686.3,
+   "method": "screen+ctx+refine",
+   "score": 3,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.95,
+    "what": "The middle frame shows the transition area from the dark forest to the open grassy landscape, with the location name 'Hyrule Field' visible on the right, matching the arrival in Hyrule Field."
+   }
+  },
+  "kXJ3_UOY8Hc": {
+   "id": "kXJ3_UOY8Hc",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "kdCm_0YbzrE": {
+   "id": "kdCm_0YbzrE",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "lO9Q5kq7a3w": {
+   "id": "lO9Q5kq7a3w",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "lWX62gwly5g": {
+   "id": "lWX62gwly5g",
+   "t": 7418.0,
+   "coarse": 7415.9,
+   "method": "screen+ctx+refine",
+   "score": 3,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 1.0,
+    "what": "The middle frame displays a landscape of a grassy field with a location name card reading \"HYRULE FIELD\" at the bottom, flanked by frames showing the transition from the forest path and the character "
+   }
+  },
+  "lZHuGGDb2Mw": {
+   "id": "lZHuGGDb2Mw",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": "screen hit(s) without context support (likely revisit)"
+  },
+  "n6fQGNE7Hdg": {
+   "id": "n6fQGNE7Hdg",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "oa5vjl1oSRk": {
+   "id": "oa5vjl1oSRk",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": "screen hit(s) without context support (likely revisit)"
+  },
+  "ozm0O_6l-gA": {
+   "id": "ozm0O_6l-gA",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "psBAO9J4enI": {
+   "id": "psBAO9J4enI",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "qODyUXkPytM": {
+   "id": "qODyUXkPytM",
+   "t": 5151.0,
+   "coarse": 5161.1,
+   "method": "context+refine",
+   "score": 2,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.92,
+    "what": "A wide shot of the rolling green hills of Hyrule Field with a title card reading 'HYRULE' overlaid in the center, indicating the transition from the forest area."
+   }
+  },
+  "qog9nchbo_M": {
+   "id": "qog9nchbo_M",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "sYCqaod99j8": {
+   "id": "sYCqaod99j8",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": "screen hit(s) without context support (likely revisit)"
+  },
+  "tS2RPRw5K60": {
+   "id": "tS2RPRw5K60",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": null
+  },
+  "veMiTsEIRfI": {
+   "id": "veMiTsEIRfI",
+   "t": 12315.0,
+   "coarse": 12336.6,
+   "method": "context+refine",
+   "score": 2,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.95,
+    "what": "A streamer overlay showing a transition from the dark, tree-filled interior of Kokiri Forest to the wide, open grassy expanse of Hyrule Field with distant mountains in the background."
+   }
+  },
+  "yCgjSQ04kh4": {
+   "id": "yCgjSQ04kh4",
+   "t": null,
+   "coarse": null,
+   "method": null,
+   "score": null,
+   "error": "screen hit(s) without context support (likely revisit)"
+  },
+  "ySNsPIbtVLM": {
+   "id": "ySNsPIbtVLM",
+   "t": 5870.0,
+   "coarse": 5865.1,
+   "method": "screen+ctx+refine",
+   "score": 3,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.95,
+    "what": "The middle frame displays a scenic view of an open grassy area with a 'HYRULE FIELD' location banner at the bottom center, confirming the arrival in the region."
+   }
+  },
+  "yb2zBfiJSpA": {
+   "id": "yb2zBfiJSpA",
+   "t": 11496.0,
+   "coarse": 11496.300000000001,
+   "method": "context+refine",
+   "score": 3,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.95,
+    "what": "The middle frame shows the location title card 'HYRULE FIELD' appearing over a view of the open field, indicating the player has just entered it. The surrounding frames show the transition from the fo"
+   }
+  },
+  "yeUD0dtNYG8": {
+   "id": "yeUD0dtNYG8",
+   "t": 8912.0,
+   "coarse": 8909.8,
+   "method": "context+refine",
+   "score": 5,
+   "error": null,
+   "vlm": {
+    "match": true,
+    "confidence": 0.85,
+    "what": "A wide, scenic view of Hyrule Field with rolling green hills and distant mountains under a cloudy sky, consistent with arriving in the field."
+   }
+  }
+ }
+}

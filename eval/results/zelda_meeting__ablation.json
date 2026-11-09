@@ -1,0 +1,29 @@
+[
+ {
+  "config": "screen+context+refine+vseed+vgate+vfill",
+  "wall_s": 10.7,
+  "slices": 0,
+  "slice_mb": 0.0,
+  "http_429": 0,
+  "failures": 0,
+  "context_cues": [],
+  "visual_fill": {
+   "seeds": 5,
+   "threshold": 0.94,
+   "filled": 19
+  },
+  "vlm_calls": 0,
+  "present": 5,
+  "absent": 0,
+  "unknown": 57,
+  "predictions": 24,
+  "pred_on_unknown": 19,
+  "hits": 5,
+  "precision": 1.0,
+  "recall": 1.0,
+  "err_median_s": 0.0,
+  "err_p90_s": 0.0,
+  "wrong": [],
+  "missed": []
+ }
+]

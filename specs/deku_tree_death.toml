@@ -1,0 +1,22 @@
+# Written from general game knowledge only (not tuned on corpus data).
+# No title card: anchored on the Deku Tree's farewell dialogue.
+[moment]
+id = "deku_tree_death"
+description = "The Great Deku Tree's farewell speech and death after Gohma is defeated"
+game = "The Legend of Zelda: Ocarina of Time (2026 remake)"
+
+[cues]
+transcript_strong = ["deku tree", "\\bdied\\b", "\\bdead\\b", "\\bdying\\b", "rip"]
+transcript_weak = ["sad", "cry", "crying", "no+", "noo"]
+transcript_precursor = ["gohma", "heart container", "emerald"]
+precursor_window_s = 900
+comment_keywords = ["deku tree", "died", "cried", "rip"]
+chapter_pattern = "deku tree"
+
+[anchor]
+screen_text = "coming to an end|time is (finally|at an end)"
+occurrence = "first"
+
+[clip]
+clip_lead_s = 10
+clip_tail_s = 50

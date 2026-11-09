@@ -1,0 +1,181 @@
+[
+ [
+  "draft",
+  {
+   "mode": "moment",
+   "id": "oot_remake_gohma_first",
+   "description": "The moment the boss name 'Gohma' appears on screen during the first encounter in the Ocarina of Time remake.",
+   "game": "Ocarina of Time remake",
+   "screen_text": "gohma",
+   "anchor_style": "standalone",
+   "occurrence": "first",
+   "screen_exclude": [
+    "save|load",
+    "settings|options",
+    "quit|exit",
+    "title",
+    "credits",
+    "gohma's lair",
+    "gohma\\s+rematch"
+   ],
+   "transcript_strong": [
+    "oh no",
+    "gohma",
+    "what is that",
+    "boss",
+    "here it comes",
+    "oh god",
+    "oh crap"
+   ],
+   "transcript_weak": [
+    "big spider",
+    "giant",
+    "cave",
+    "dungeon"
+   ],
+   "transcript_precursor": [
+    "gohma",
+    "boss",
+    "ready",
+    "let's go",
+    "enter",
+    "door",
+    "spider",
+    "lair"
+   ],
+   "comment_keywords": [
+    "gohma",
+    "boss fight",
+    "spider",
+    "oh god",
+    "classic",
+    "first time"
+   ],
+   "clip_lead_s": 5,
+   "clip_tail_s": 15,
+   "look": "A large, brown, hairy spider with multiple legs standing in a dark, stone-walled dungeon room."
+  },
+  null
+ ],
+ [
+  "revise1",
+  {
+   "mode": "moment",
+   "id": "oot_remake_gohma_first",
+   "description": "The moment the boss name 'Gohma' appears on screen during the first encounter in the Ocarina of Time remake.",
+   "game": "The Legend of Zelda: Ocarina of Time 3D",
+   "screen_text": "^(gohma|goHMA)$",
+   "anchor_style": "standalone",
+   "occurrence": "first",
+   "screen_exclude": [
+    "save|load",
+    "settings|options",
+    "quit|exit",
+    "credits",
+    "how to deleat|how to delest",
+    "secret|trivia|tip",
+    "sub:|score|hp|health",
+    "ocarina of time"
+   ],
+   "transcript_strong": [
+    "gohma",
+    "boss",
+    "what is that",
+    "oh god",
+    "oh no",
+    "here it comes",
+    "oh crap"
+   ],
+   "transcript_weak": [
+    "big spider",
+    "giant spider",
+    "cave",
+    "dungeon",
+    "arachnid"
+   ],
+   "transcript_precursor": [
+    "boss",
+    "ready",
+    "let's go",
+    "enter",
+    "door",
+    "spider",
+    "lair",
+    "gohma"
+   ],
+   "comment_keywords": [
+    "gohma",
+    "boss fight",
+    "spider",
+    "oh god",
+    "classic",
+    "first time"
+   ],
+   "clip_lead_s": 5,
+   "clip_tail_s": 15,
+   "look": "A large, brown, hairy spider with multiple legs standing in a dark, stone-walled dungeon room."
+  },
+  "screen_text 'gohma': 18 matching OCR lines in 17/62 videos.\ngame 'Ocarina of Time remake' gives title pattern 'Ocarina\\\\s*of\\\\s*Time\\\\s*remake' (frames showing it are excluded as title screens/overlays); it matches on-screen text in 0/62 videos. If that is 0, the game name is probably wrong; check the explored lines below.\nMost common matched lines: \"GOHMA\" x13; \"Gohmat Be careful, Link. I think this is the moreter\" x1; \"another secret: how to deleat the dread Gohma.\" x1; \"anocher secret how to delest the dread Gohma\" x1; \"Tises, a Gohma tarvas, If they're around, then_\" x1; \"GoHMA\" x1\nPosition in video (fraction of duration): median 0.38; 0 of 18 matches are in the first 3% of a video.\nVisible duration per occurrence: median 0s, max 0s (long = persistent HUD/menu). Occurrences per video: median 1 frames.\n14/18 matches are short standalone lines (<=30 chars); the rest are inside longer text.\nText that appears in the SAME frame as matches (often part of the same card, e.g. a subtitle under a name; putting it in screen_exclude would remove those matches): \"Isub: 101/250\" x2; \"na's college fund: 10/50\" x1; \"PARASITIC ARMORED ARACINID\" x1; \"PARASITI: ARMORED ARACHNID\" x1; \"-DOBOXDIX\" x1; \"the Great De Tree tald ss about!\" x1; \"POOO\u0425DX\" x1; \"PARASITIC ARMBRED ARACHNID\" x1; \"PARASTTIC ARMORED ARACHNID\" x1; \"rbeka Scnub\" x1; \"PARASITIC ARPORED ARACHNID\" x1; \"nenatien Log O\" x1\nAFTER screen_exclude: 18 matches survive in 17/62 videos; exclusions removed 0 matches in 0 videos. Removing real event frames loses videos; only exclude text that marks NON-event frames.\nEXPLORE - short on-screen lines containing query words, with how many videos show them: \"OCARINA OF TIME\" in 47 videos; \"OCARINA\" in 16 videos; \"GOHMA\" in 14 videos; \"OCARINA OFTIME\" in 13 videos; \"OCARINA OFT ME\" in 6 videos; \"OCARINA OI\" in 5 videos; \"OCARINA OFIME\" in 5 videos; \"OCARINA OF TIM\" in 4 videos; \"FAIRY OCARINA\" in 3 videos; \"OCARINA OF TIMI\" in 3 videos; \"OCARINA DE TIME\" in 2 videos; \"OCARINA OFE ME\" in 2 videos; \"OCARINA OF FIME\" in 2 videos; \"THE BOSS SAID, I DON'T ARE WHAT YOU DO-J\" in 2 videos; \"OCARINA AUDIO INPUT\" in 2 videos; \"OCARINA OFEME\" in 2 videos; \"\"IN THE NAME OF PRINCESS ZELDA, OF THE R\" in 2 videos; \"OCARINA OFTTME\" in 2 videos; \"OCARINA OE TIME\" in 2 videos; \"OCARINA OF\" in 2 videos"
+ ],
+ [
+  "revise2",
+  {
+   "mode": "moment",
+   "id": "planned_gohma_probe",
+   "description": "The moment the boss name 'Gohma' appears on screen during the first encounter in the Ocarina of Time remake.",
+   "game": "The Legend of Zelda: Ocarina of Time",
+   "screen_text": "^gohma$",
+   "anchor_style": "standalone",
+   "occurrence": "first",
+   "screen_exclude": [
+    "save|load",
+    "settings|options",
+    "quit|exit",
+    "credits",
+    "how to (deleat|delest|defeat|beat)",
+    "secret|trivia|tip",
+    "sub:|score|hp|health",
+    "ocarina of time"
+   ],
+   "transcript_strong": [
+    "gohma",
+    "boss",
+    "what is that",
+    "oh god",
+    "oh no",
+    "here it comes",
+    "oh crap"
+   ],
+   "transcript_weak": [
+    "big spider",
+    "giant spider",
+    "cave",
+    "dungeon",
+    "arachnid",
+    "parasitic armored arachnid"
+   ],
+   "transcript_precursor": [
+    "boss",
+    "ready",
+    "let's go",
+    "enter",
+    "door",
+    "spider",
+    "lair",
+    "gohma"
+   ],
+   "comment_keywords": [
+    "gohma",
+    "boss fight",
+    "spider",
+    "oh god",
+    "classic",
+    "first time"
+   ],
+   "clip_lead_s": 5,
+   "clip_tail_s": 15,
+   "look": "A large, brown, hairy spider with multiple legs standing in a dark, stone-walled dungeon room."
+  },
+  "screen_text '^(gohma|goHMA)$': 14 matching OCR lines in 14/62 videos.\ngame 'The Legend of Zelda: Ocarina of Time 3D' gives title pattern 'Ocarina\\\\s*of\\\\s*Time\\\\s*D' (frames showing it are excluded as title screens/overlays); it matches on-screen text in 0/62 videos. If that is 0, the game name is probably wrong; check the explored lines below.\nMost common matched lines: \"GOHMA\" x13; \"GoHMA\" x1\nPosition in video (fraction of duration): median 0.37; 0 of 14 matches are in the first 3% of a video.\nVisible duration per occurrence: median 0s, max 0s (long = persistent HUD/menu). Occurrences per video: median 1 frames.\n14/14 matches are short standalone lines (<=30 chars); the rest are inside longer text.\nText that appears in the SAME frame as matches (often part of the same card, e.g. a subtitle under a name; putting it in screen_exclude would remove those matches): \"na's college fund: 10/50\" x1; \"PARASITIC ARMORED ARACINID\" x1; \"Isub: 101/250\" x1; \"PARASITI: ARMORED ARACHNID\" x1; \"-DOBOXDIX\" x1; \"PARASITIC ARMBRED ARACHNID\" x1; \"PARASTTIC ARMORED ARACHNID\" x1; \"PARASITIC ARPORED ARACHNID\" x1; \"PARASTTI ARMORED ARACHNID\" x1; \"PARASITIC ARMORED ARACHNIE\" x1; \"PARASITIC A\" x1; \"CMORED ARACHMIR\" x1\nAFTER screen_exclude: 13 matches survive in 13/62 videos; exclusions removed 1 matches in 1 videos: 'sub:|score|hp|health' removed 1 (e.g. \"Isub: 101/250\"). Removing real event frames loses videos; only exclude text that marks NON-event frames.\nEXPLORE - short on-screen lines containing query words, with how many videos show them: \"OCARINA OF TIME\" in 47 videos; \"OCARINA\" in 16 videos; \"GOHMA\" in 14 videos; \"OCARINA OFTIME\" in 13 videos; \"OCARINA OFT ME\" in 6 videos; \"OCARINA OI\" in 5 videos; \"OCARINA OFIME\" in 5 videos; \"OCARINA OF TIM\" in 4 videos; \"FAIRY OCARINA\" in 3 videos; \"OCARINA OF TIMI\" in 3 videos; \"OCARINA DE TIME\" in 2 videos; \"OCARINA OFE ME\" in 2 videos; \"OCARINA OF FIME\" in 2 videos; \"THE BOSS SAID, I DON'T ARE WHAT YOU DO-J\" in 2 videos; \"OCARINA AUDIO INPUT\" in 2 videos; \"OCARINA OFEME\" in 2 videos; \"\"IN THE NAME OF PRINCESS ZELDA, OF THE R\" in 2 videos; \"OCARINA OFTTME\" in 2 videos; \"OCARINA OE TIME\" in 2 videos; \"OCARINA OF\" in 2 videos"
+ ]
+]

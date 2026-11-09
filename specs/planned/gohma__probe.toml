@@ -1,0 +1,16 @@
+[spec]
+mode = "moment"
+id = "planned_gohma_probe"
+description = "The moment the boss name 'Gohma' appears on screen during the first encounter in the Ocarina of Time remake."
+game = "The Legend of Zelda: Ocarina of Time"
+screen_text = "^gohma$"
+anchor_style = "standalone"
+occurrence = "first"
+screen_exclude = ["save|load", "settings|options", "quit|exit", "credits", "how to (deleat|delest|defeat|beat)", "secret|trivia|tip", "sub:|score|hp|health", "ocarina of time"]
+transcript_strong = ["gohma", "boss", "what is that", "oh god", "oh no", "here it comes", "oh crap"]
+transcript_weak = ["big spider", "giant spider", "cave", "dungeon", "arachnid", "parasitic armored arachnid"]
+transcript_precursor = ["boss", "ready", "let's go", "enter", "door", "spider", "lair", "gohma"]
+comment_keywords = ["gohma", "boss fight", "spider", "oh god", "classic", "first time"]
+clip_lead_s = 5
+clip_tail_s = 15
+look = "A large, brown, hairy spider with multiple legs standing in a dark, stone-walled dungeon room."

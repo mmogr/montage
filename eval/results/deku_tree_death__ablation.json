@@ -1,0 +1,50 @@
+[
+ {
+  "config": "screen+context+refine+vseed+vgate+vfill",
+  "wall_s": 62.8,
+  "slices": 0,
+  "slice_mb": 0.0,
+  "http_429": 0,
+  "failures": 0,
+  "context_cues": [
+   [
+    "hands",
+    -42.80000000000018
+   ],
+   [
+    "most",
+    -32.80000000000018
+   ],
+   [
+    "chasen",
+    42.19999999999982
+   ],
+   [
+    "powers",
+    42.899999999999636
+   ],
+   [
+    "find",
+    45.69999999999982
+   ]
+  ],
+  "visual_fill": {
+   "seeds": 18,
+   "threshold": 0.93,
+   "filled": 11
+  },
+  "vlm_calls": 0,
+  "present": 23,
+  "absent": 0,
+  "unknown": 39,
+  "predictions": 34,
+  "pred_on_unknown": 11,
+  "hits": 23,
+  "precision": 1.0,
+  "recall": 1.0,
+  "err_median_s": 0.0,
+  "err_p90_s": 0.0,
+  "wrong": [],
+  "missed": []
+ }
+]

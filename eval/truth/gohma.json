@@ -1,0 +1,388 @@
+{
+ "moment": "gohma",
+ "event": "first frame the 'Parasitic Armored Arachnid / GOHMA' boss name card is OCR-readable",
+ "tolerance_s": 5,
+ "videos": {
+  "-_dlFN0Y5kw": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "16P7HS9Gv8o": {
+   "status": "present",
+   "t": 7917.0,
+   "verified": "frames: contact sheet (boss card at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "1UEfEqhrRik": {
+   "status": "present",
+   "t": 5047.0,
+   "verified": "frames: contact sheet (boss card at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "1lnTcqnqB-o": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "2BKzH0BrwJE": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "40ISBBpoCG8": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "5duudnvlMcE": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "5wxzzkss0Tc": {
+   "status": "present",
+   "t": 6899.0,
+   "verified": "frames: contact sheet (boss card at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "79NZJTU3R-A": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "7zgHQlHbArU": {
+   "status": "present",
+   "t": 5497.0,
+   "verified": "frames: contact sheet (boss card at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "8ygHUpWUPCs": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "9KI0ImDnnwA": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "9P4zWoPIHAY": {
+   "status": "present",
+   "t": 6407.0,
+   "verified": "frames: contact sheet (boss card at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "9eZHuOtCyYI": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "AWOqDlNSGFg": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "AqWWkm-ltFg": {
+   "status": "present",
+   "t": 5802.0,
+   "verified": "frames: contact sheet (boss card) reviewed 2026-11-08; found by manual slice search after system matched a dialogue mention",
+   "note": "",
+   "negatives": [
+    5694.0
+   ]
+  },
+  "ErlzIawWbqE": {
+   "status": "present",
+   "t": 3150.0,
+   "verified": "frames: contact sheet (boss card at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "FNfLW_Xa5WE": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "IBoRzTyPUtQ": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": "",
+   "negatives": [
+    3839.0
+   ]
+  },
+  "K-wmAFPZcRY": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "LMOIpmtOCos": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "N-H_1qsQApI": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "NQNLL3DIj6Y": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "Nawn1HCuz_4": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "OOjJGTVdpII": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "PqrTzNM9InI": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "QeSk-Lz9_ns": {
+   "status": "present",
+   "t": 3721.0,
+   "verified": "frames: contact sheet (boss card) reviewed 2026-11-08; found by manual slice search after system matched a dialogue mention",
+   "note": "",
+   "negatives": [
+    3317.0
+   ]
+  },
+  "RcsrHI4J6Rk": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "Rj39s8B-oHY": {
+   "status": "present",
+   "t": 5597.0,
+   "verified": "frames: contact sheet (boss card at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "SL8RWDCldyM": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "UXaqpskUYOs": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "WdY7JF4Cdqw": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "Y2ZXey96jCA": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "ZCFXOaLwl2Y": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "ZKdlwKBwePA": {
+   "status": "present",
+   "t": 3487.0,
+   "verified": "frames: contact sheet (boss card at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "ZV3QTfnaMjg": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "_BNfbfz9aZE": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "bVD9mjhWLt4": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "cQzmLsU8uXg": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "cSSGbHr8rw0": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "fAu6JNfAtIo": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "g8NGW0tPE1I": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "gppwpLKr1xI": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "kUtCJImptB0": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "kXJ3_UOY8Hc": {
+   "status": "present",
+   "t": 7990.0,
+   "verified": "frames: contact sheet (boss card at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "kdCm_0YbzrE": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "lO9Q5kq7a3w": {
+   "status": "present",
+   "t": 4977.0,
+   "verified": "frames: contact sheet (boss card at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "lWX62gwly5g": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "lZHuGGDb2Mw": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "n6fQGNE7Hdg": {
+   "status": "present",
+   "t": 3839.0,
+   "verified": "frames: contact sheet (boss card at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "oa5vjl1oSRk": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "ozm0O_6l-gA": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "psBAO9J4enI": {
+   "status": "present",
+   "t": 7230.0,
+   "verified": "frames: contact sheet (boss card at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "qODyUXkPytM": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "qog9nchbo_M": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "sYCqaod99j8": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "tS2RPRw5K60": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "veMiTsEIRfI": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "yCgjSQ04kh4": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  },
+  "ySNsPIbtVLM": {
+   "status": "present",
+   "t": 4738.0,
+   "verified": "frames: contact sheet (boss card at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "yb2zBfiJSpA": {
+   "status": "present",
+   "t": 7319.0,
+   "verified": "frames: contact sheet (boss card at t) reviewed 2026-11-08; t from 1fps slice OCR",
+   "note": ""
+  },
+  "yeUD0dtNYG8": {
+   "status": "unknown",
+   "t": null,
+   "verified": null,
+   "note": ""
+  }
+ }
+}

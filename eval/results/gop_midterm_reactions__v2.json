@@ -1,0 +1,419 @@
+{
+ "spec": "gop_midterm_reactions",
+ "config": {
+  "name": "v2",
+  "think": false,
+  "model": "Qwen3.8-27B"
+ },
+ "cost": {
+  "wall_s": 1062.6,
+  "llm_calls": 26
+ },
+ "predictions": {
+  "-mqnBKkrpAU": {
+   "id": "-mqnBKkrpAU",
+   "segments": [
+    {
+     "start": 7,
+     "end": 41,
+     "speaker": "Donald Trump",
+     "role": "President",
+     "evidence": "Transcript at 0:00:00-0:00:10 addresses 'Mr. President'; Title is 'Trump reacts...'; Description states 'President Donald Trump...'; Speaker responds to question about Republicans losing the war/election last night due to Iran war.",
+     "quote": "Well, I think it's largely true because it drove the gasoline up a little bit short-term... But at the same time if I had it to do again I'd have to do it again.",
+     "why": "The speaker is President Donald Trump (Republican official) reacting directly to the 2026 midterm election losses and explaining them via the Iran war context, meeting all criteria."
+    },
+    {
+     "start": 43,
+     "end": 101,
+     "speaker": "Donald Trump",
+     "role": "President",
+     "evidence": "Continuation of interview with 'Mr. President' (established in previous turn); comments on campaign closing, candidate performance, and future relations with Democrats after the loss.",
+     "quote": "if I were on the ballot we would have won... We weren't able to transfer the love to candidates.",
+     "why": "Continued reaction/commentary by a Republican politician regarding the specific outcomes and dynamics of the 2026 midterm election."
+    }
+   ],
+   "note": "Interview with President Donald Trump discussing the causes and implications of the Republican losses in the 2026 midterm elections.",
+   "llm_calls": 1
+  },
+  "-WQ7RW4HA1Q": {
+   "id": "-WQ7RW4HA1Q",
+   "segments": [],
+   "note": "NBC News report by Monica Alba covering Susan Collins' concession, but the politician does not speak in the clip.",
+   "llm_calls": 1
+  },
+  "2jvRmmiK_ng": {
+   "id": "2jvRmmiK_ng",
+   "segments": [
+    {
+     "start": 0,
+     "end": 108,
+     "speaker": "Mike Johnson",
+     "role": "House Speaker (R-LA)",
+     "evidence": "chyron 'JOHNSON' visible at 0:00:03 and 0:01:03; title identifies 'Mike Johnson Reacts'; transcript contains first-person statements like 'I'm disappointed, too' and 'we are never discouraged'.",
+     "quote": "To every American disappointed by tonight's results, I mean, I'm disappointed, too, but we are never discouraged, okay?",
+     "why": "Meets WHO: Mike Johnson is a Republican politician (House Speaker). Meets WHAT: He is directly reacting to the 2026 midterm election losses. Meets WHEN: Video uploaded 2026-11-04, content references 'tonight's results'. Excludes the final outro segment."
+    }
+   ],
+   "note": "ET Now clip of House Speaker Mike Johnson speaking in Shreveport, LA, after the 2026 midterm elections.",
+   "llm_calls": 1
+  },
+  "70oHLu7E3eU": {
+   "id": "70oHLu7E3eU",
+   "segments": [],
+   "note": "skipped: uploaded 20260203 before 2026-11-03",
+   "llm_calls": 0
+  },
+  "m-ILKkehjOo": {
+   "id": "m-ILKkehjOo",
+   "segments": [],
+   "note": "skipped: uploaded 20260106 before 2026-11-03",
+   "llm_calls": 0
+  },
+  "75JfKMcipTw": {
+   "id": "75JfKMcipTw",
+   "segments": [],
+   "note": "CBS News segment featuring international reactions (Iran, Israel, Spain) and a US citizen in Europe to the 2026 midterms; no Republican politicians speaking.",
+   "llm_calls": 1
+  },
+  "cStKnsBnaQs": {
+   "id": "cStKnsBnaQs",
+   "segments": [
+    {
+     "start": 51,
+     "end": 108,
+     "speaker": "Steve Hilton",
+     "role": "Republican Candidate for Governor",
+     "evidence": "Chyron identifies 'STEVE HILTON' and 'CANDIDATE FOR GOVERNOR' (with 'STEVE HILTON CONCEDED' appearing frequently). The reporter explicitly introduces the clip as 'he in a speech... Take a listen.' The transcript content matches the title and description.",
+     "quote": "Enjoy it while it lasts. We're going to have a Republican governor in 2030.",
+     "why": "Steve Hilton is a Republican politician (candidate) reacting to the 2026 midterm election results (losing to Becerra) and commenting on the outcome/future."
+    }
+   ],
+   "note": "ABC7 report featuring a clip of Steve Hilton's concession speech after the 2026 California Governor's race.",
+   "llm_calls": 1
+  },
+  "ZrZJLqPvVGc": {
+   "id": "ZrZJLqPvVGc",
+   "segments": [
+    {
+     "start": 39,
+     "end": 46,
+     "speaker": "J.D. Vance",
+     "role": "Vice President",
+     "evidence": "Chyron 'JD Vance' and OCR quote text 'The reason we...'; Transcript at 0:00:33 identifies 'Vice President J.D. Vance is blaming... In a blunt social media post, Vance writes, \"The reason we lost is the war.\"'",
+     "quote": "The reason we lost is the war.",
+     "why": "Speaker is the Vice President (Republican politician) and the content is his reaction/explanation for the 2026 midterm loss."
+    },
+    {
+     "start": 50,
+     "end": 59,
+     "speaker": "Donald Trump",
+     "role": "President",
+     "evidence": "Transcript at 0:00:33 identifies the speaker in the following clip as 'President Trump' who is offering a perspective on why the party lost. The quote 'Well, I think it's largely true...' is first-person commentary on the election result.",
+     "quote": "Well, I think it's largely true because it drove the gasoline up a little bit, and probably that's the primary reason. The The price, not the war, the price.",
+     "why": "Speaker is the President (Republican politician) and the content is his reaction/explanation for the 2026 midterm loss."
+    }
+   ],
+   "note": "CBS New York report on the 2026 midterm election defeat, featuring comments from VP Vance and President Trump.",
+   "llm_calls": 1
+  },
+  "FI7r_sxrP3s": {
+   "id": "FI7r_sxrP3s",
+   "segments": [
+    {
+     "start": 37,
+     "end": 107,
+     "speaker": "Donald Trump",
+     "role": "President",
+     "evidence": "Title: 'Trump answers questions...'; Chyron: 'TRUMP ANSWERS QUESTIONS AFTER REPUBLICAN MIDTERM LOSSES'; Transcript: 'Well, I think it's largely true because it drove the gasoline up...'",
+     "quote": "Well, I think it's largely true because it drove the gasoline up a little bit short-term... if I had it to do again, I'd have to do it again because long-term uh it's the only answer.",
+     "why": "Trump (Republican President) is directly answering questions about why Republicans lost the 2026 midterms, linking the loss to the war in Iran and gas prices."
+    },
+    {
+     "start": 114,
+     "end": 134,
+     "speaker": "Donald Trump",
+     "role": "President",
+     "evidence": "Transcript: 'No, look, I mean, if I were on the ballot, we would have won... And uh we weren't able to transfer the love to candidates.'",
+     "quote": "No, look, I mean, if I were on the ballot, we would have won... And uh we weren't able to transfer the love to candidates.",
+     "why": "Trump comments on the campaign performance and the reason for the losses (failure to transfer his popularity to candidates)."
+    },
+    {
+     "start": 193,
+     "end": 218,
+     "speaker": "Donald Trump",
+     "role": "President",
+     "evidence": "Transcript: 'I I can't tell you that... Not even a little bit. I think it would destroy I think it would destroy the Democrat party if they did that. Cuz impeachment for no reason...'",
+     "quote": "Not even a little bit. I think it would destroy I think it would destroy the Democrat party if they did that. Cuz impeachment for no reason, what for?",
+     "why": "Trump addresses the possibility of impeachment by the new Democratic majority in Congress, a direct consequence of the midterm results."
+    },
+    {
+     "start": 227,
+     "end": 291,
+     "speaker": "Donald Trump",
+     "role": "President",
+     "evidence": "Transcript: 'Well, I think I knew he was I know how he feels about it... I mean we'll see what happens. Everybody uh I mean you you don't know who's talking about running...'",
+     "quote": "I mean we'll see what happens. Everybody uh I mean you you don't know who's talking about running. You can have people running... But I can tell you that as far as that war is concerned I would have done nothing different.",
+     "why": "Trump discusses the Vice President's comments on the election results and the future Republican leadership/candidates for the next cycle."
+    },
+    {
+     "start": 327,
+     "end": 400,
+     "speaker": "Donald Trump",
+     "role": "President",
+     "evidence": "Transcript: '...I knew uh fuel would go up. Uh I thought it would go up two or three times higher than it is... So, No, I think he's doing a very good job. Well, I think he I think he's doing a very good job...'",
+     "quote": "No, I think he's doing a very good job. Well, I think he I think he's doing a very good job and I I actually think he'd be very popular if he did that.",
+     "why": "Trump continues to explain the economic impact of his decisions (referencing the context of the losses) and defends the Vice President's performance/standing post-election."
+    }
+   ],
+   "note": "President Trump answers questions from reporters regarding the Republican midterm election losses, the war with Iran, and potential impeachment.",
+   "llm_calls": 1
+  },
+  "4Jpyxc4JRkM": {
+   "id": "4Jpyxc4JRkM",
+   "segments": [],
+   "note": "skipped: uploaded 20181107 before 2026-11-03",
+   "llm_calls": 0
+  },
+  "S0_PgKAxLPQ": {
+   "id": "S0_PgKAxLPQ",
+   "segments": [],
+   "note": "skipped: uploaded 20221207 before 2026-11-03",
+   "llm_calls": 0
+  },
+  "uDy0Y9fbi0A": {
+   "id": "uDy0Y9fbi0A",
+   "segments": [
+    {
+     "start": 35,
+     "end": 100,
+     "speaker": "Elise Stefanik",
+     "role": "Congresswoman (R-NY)",
+     "evidence": "Chyron at 0:00:39 reads 'REP. ELISE STEFANIK | (R) NEWYOR'; Host addresses her directly ('Elise, I want to start with you...'); She responds in first person about 'President Trump's political team' and 'Republicans'.",
+     "quote": "The reason why you saw President Trump at these rallies was to try to energize his base to make sure they turned out.",
+     "why": "Republican elected official (WHO) reacting to the 2026 midterm election strategy and turnout (WHAT) on 2026-11-04 (WHEN)."
+    }
+   ],
+   "note": "CBS News panel discussion with Jasmine Crockett, Joe Manchin, and Elise Stefanik discussing early 2026 midterm election results and strategies.",
+   "llm_calls": 1
+  },
+  "E_E3NGqGqhQ": {
+   "id": "E_E3NGqGqhQ",
+   "segments": [],
+   "note": "A CNN news segment where a host reads a social media post by JD Vance and reporters/pundits analyze it; JD Vance does not speak on video or audio.",
+   "llm_calls": 1
+  },
+  "LddF2cF1IGQ": {
+   "id": "LddF2cF1IGQ",
+   "segments": [],
+   "note": "Interview with John Bolton (former advisor/pundit) discussing the 2026 election results and JD Vance's reaction; no Republican elected officials or party leaders speak.",
+   "llm_calls": 1
+  },
+  "xaNS1kUxpGU": {
+   "id": "xaNS1kUxpGU",
+   "segments": [],
+   "note": "skipped: uploaded 20260527 before 2026-11-03",
+   "llm_calls": 0
+  },
+  "8zL4hAL7108": {
+   "id": "8zL4hAL7108",
+   "segments": [
+    {
+     "start": 0,
+     "end": 391,
+     "speaker": "Ron DeSantis",
+     "role": "Governor of Florida",
+     "evidence": "title-only: Title identifies speaker as 'DeSantis' and description states 'Gov. Ron DeSantis discusses Republican election victories...'. Transcript is a first-person speech reacting to the results.",
+     "quote": "This is close to an extinction-level event for Republicans in many parts of the country, the largest in perhaps the last 100 years.",
+     "why": "Ron DeSantis is a Republican elected official (Governor). The video is dated 2026-11-04, and he is explicitly reacting to the 2026 midterm election results, describing the Republican performance as an 'extinction-level event' while noting Florida's relative success."
+    },
+    {
+     "start": 1514,
+     "end": 2263,
+     "speaker": "Ron DeSantis",
+     "role": "Governor of Florida",
+     "evidence": "Title: 'DeSantis warns of EXTINCTION-LEVEL event for GOP'; Description: 'Gov. Ron DeSantis discusses Republican election victories in Florida...'; Transcript: Speaker discusses 'my governorship', 'if the next governor', and 'when I was running for re-election', and the chyron/title context confirms it is him speaking.",
+     "quote": "I don't think that was the deciding factor in South Florida... The results would still be difficult because that was the case.",
+     "why": "Ron DeSantis is a Republican elected official (Governor). He is explicitly discussing the outcomes of the 2026 midterm elections, citing wins in Florida (Ashley Moody, Byron, Atwater) and losses in Texas ('ousted in Texas'), and analyzing the reasons for these results (inflation, issues like data centers vs. gender ideology)."
+    }
+   ],
+   "note": "Gov. Ron DeSantis discusses the 2026 midterm election results, contrasting Florida's Republican wins with losses in other states like Texas. | Interview with Florida Governor Ron DeSantis analyzing the mixed results of the 2026 midterm elections, highlighting Republican success in Florida and failures in Texas.",
+   "llm_calls": 3
+  },
+  "WajE86ZfE54": {
+   "id": "WajE86ZfE54",
+   "segments": [],
+   "note": "Live news broadcast of the 2026 Texas midterm election results from KHOU 11; features reporters and pundits discussing results, but no Republican politicians speak on camera in this duration. | This video is a local news broadcast from KHOU 11 featuring anchors and political analysts discussing the 2026 Texas midterm election results; no Republican politicians are seen or heard speaking in the provided transcript segment.",
+   "llm_calls": 2
+  },
+  "-AACZN9OPrI": {
+   "id": "-AACZN9OPrI",
+   "segments": [
+    {
+     "start": 0,
+     "end": 335,
+     "speaker": "Rep. Mike Collins",
+     "role": "U.S. Representative (R-GA)",
+     "evidence": "title-only: Title 'Rep. Mike Collins delivers concession speech...' and description 'Republican U.S. Rep. Mike Collins delivers a concession speech after Democratic Incumbent Jon Ossoff is reelected...' confirm the speaker and context. Chyrons show 'MIKE COLLINS'.",
+     "quote": "I am not going to call Jon Ossoff. I am not going to tell him I am disappointed.",
+     "why": "Meets WHO (Republican politician speaking), WHAT (concession/reacting to 2026 midterm loss), and WHEN (uploaded 2026-11-04)."
+    }
+   ],
+   "note": "Rep. Mike Collins delivers his concession speech after losing the 2026 U.S. Senate race in Georgia.",
+   "llm_calls": 1
+  },
+  "3BDmQI-KK5s": {
+   "id": "3BDmQI-KK5s",
+   "segments": [
+    {
+     "start": 0,
+     "end": 201,
+     "speaker": "Max Engling",
+     "role": "Secretary of State Candidate (R-IN)",
+     "evidence": "title-only: Title 'Secretary of State candidate Max Engling speaks at Republican Watch Party' and description 'Republican candidate Max Engling gives concession speech'; Chyron at 0:01:03, 0:02:04, 0:03:05 reads 'ENGLING DELIVERS CONCESSION SPEECH'.",
+     "quote": "N/A",
+     "why": "Max Engling is a Republican candidate (meets WHO) and is delivering a concession speech reacting to the 2026 midterm results (meets WHAT) on/after the election date (meets WHEN)."
+    }
+   ],
+   "note": "Republican candidate Max Engling delivers a concession speech at a watch party following the 2026 midterm elections.",
+   "llm_calls": 1
+  },
+  "8oxXXRRTNcA": {
+   "id": "8oxXXRRTNcA",
+   "segments": [],
+   "note": "skipped: uploaded 20261102 before 2026-11-03",
+   "llm_calls": 0
+  },
+  "BBdaAlQl16c": {
+   "id": "BBdaAlQl16c",
+   "segments": [],
+   "note": "skipped: uploaded 20160721 before 2026-11-03",
+   "llm_calls": 0
+  },
+  "btNPxhaLsZY": {
+   "id": "btNPxhaLsZY",
+   "segments": [
+    {
+     "start": 0,
+     "end": 886,
+     "speaker": "Mike Johnson",
+     "role": "House Speaker (R-LA)",
+     "evidence": "title-only: Title 'Speaker Johnson Speaks After Republicans Lose House Majority In Midterms' and Description 'House Speaker Mike Johnson (R-LA) delivered remarks on Tuesday after the Republicans were projected to lose the House Majority' explicitly identify the speaker and context; OCR chyron 'HOUSE SPEAKER MIKE JOHNSON (R-LA) DELIVERS REMARKS' confirms.",
+     "quote": "We are not going to be defined by this election cycle.",
+     "why": "Mike Johnson is a Republican elected official (House Speaker) speaking directly (remarks) about the 2026 midterm election results (losing House majority) on 2026-11-04."
+    }
+   ],
+   "note": "Forbes Breaking News clip of House Speaker Mike Johnson speaking at an election watch party after Republicans lost the House majority in the 2026 midterms.",
+   "llm_calls": 1
+  },
+  "ehkyIHGUvNc": {
+   "id": "ehkyIHGUvNc",
+   "segments": [
+    {
+     "start": 0,
+     "end": 2230,
+     "speaker": "Ron DeSantis",
+     "role": "Governor (R-FL)",
+     "evidence": "title-only: Title is 'LIVE: Gov. DeSantis speaks after 2026 midterm elections' and description confirms he is holding a press conference.",
+     "quote": "Thank you, thank you. We are here to address the results of the 2026 midterm elections.",
+     "why": "Meets WHO as Ron DeSantis is a Republican elected official (Governor) speaking himself. Meets WHAT as the context is a press conference about the 2026 midterm results. Meets WHEN as the upload date is 2026-11-04."
+    }
+   ],
+   "note": "Live press conference by Florida Governor Ron DeSantis regarding the 2026 midterm election results.",
+   "llm_calls": 1
+  },
+  "gh-D3T_cqao": {
+   "id": "gh-D3T_cqao",
+   "segments": [
+    {
+     "start": 0,
+     "end": 501,
+     "speaker": "Zach Lahn",
+     "role": "Candidate (R-IA)",
+     "evidence": "title-only: 'Republican Zach Lahn delivers concession speech after losing to Democrat Rob Sand'",
+     "quote": "Not available (transcript empty)",
+     "why": "Meets WHO (Zach Lahn is a Republican candidate) and WHAT (delivering a concession speech after losing, reacting to the election result) based on the title/description explicitly stating the video content. Uploaded date 2026-11-04 meets the WHEN requirement."
+    }
+   ],
+   "note": "Video of Republican candidate Zach Lahn delivering his concession speech after losing to Democrat Rob Sand in the 2026 midterm elections.",
+   "llm_calls": 1
+  },
+  "HxzGDi2Mcvo": {
+   "id": "HxzGDi2Mcvo",
+   "segments": [
+    {
+     "start": 0,
+     "end": 520,
+     "speaker": "Vivek Ramaswamy",
+     "role": "Candidate (R)",
+     "evidence": "title-only: Title states 'Vivek Ramaswamy Concedes... in Emotional Election Night Speech' and description states 'Republican Vivek Ramaswamy delivers his concession speech'.",
+     "quote": "We are rooting for your success.",
+     "why": "Vivek Ramaswamy is a Republican politician (candidate) speaking about the 2026 midterm election results (specifically his loss in Ohio), satisfying WHO and WHAT."
+    }
+   ],
+   "note": "Vivek Ramaswamy's concession speech after losing the 2026 Ohio gubernatorial race.",
+   "llm_calls": 1
+  },
+  "m9jL2S1tHhk": {
+   "id": "m9jL2S1tHhk",
+   "segments": [],
+   "note": "skipped: uploaded 20260826 before 2026-11-03",
+   "llm_calls": 0
+  },
+  "FYGX-PkTbNo": {
+   "id": "FYGX-PkTbNo",
+   "segments": [],
+   "note": "The video is a live feed from a watch party, but the transcript is empty and the on-screen text identifies the location/campaign rather than providing clear evidence of a specific Republican politician speaking about the results.",
+   "llm_calls": 1
+  },
+  "KMWyndiZ2nQ": {
+   "id": "KMWyndiZ2nQ",
+   "segments": [],
+   "note": "The transcript is empty, and the title/description indicate this is a PBS NewsHour report by correspondents rather than a standalone speech or remarks by a specific Republican politician.",
+   "llm_calls": 1
+  },
+  "lmzKbJAFrys": {
+   "id": "lmzKbJAFrys",
+   "segments": [],
+   "note": "The video is a news report by WKYC covering JD Vance's online post about the 2026 midterm results, but it contains no audio of Vance speaking, only reporter narration and on-screen graphics.",
+   "llm_calls": 1
+  },
+  "mCcuPQri6GA": {
+   "id": "mCcuPQri6GA",
+   "segments": [],
+   "note": "This is a commentary video by host Jay Reed discussing Texas election results; it contains no segments where a Republican politician speaks themselves about the 2026 midterms.",
+   "llm_calls": 1
+  },
+  "nLW3uS9bit8": {
+   "id": "nLW3uS9bit8",
+   "segments": [],
+   "note": "A commentary video by host John Iadarola analyzing media reactions to the 2026 midterms, not a speech by a Republican politician.",
+   "llm_calls": 1
+  }
+ },
+ "duplicate_groups": [
+  [
+   [
+    "-mqnBKkrpAU",
+    7
+   ],
+   [
+    "FI7r_sxrP3s",
+    37
+   ]
+  ],
+  [
+   [
+    "-mqnBKkrpAU",
+    43
+   ],
+   [
+    "FI7r_sxrP3s",
+    114
+   ],
+   [
+    "FI7r_sxrP3s",
+    193
+   ]
+  ]
+ ]
+}
